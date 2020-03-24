@@ -1,6 +1,53 @@
+@font-face {
+    font-family: 'Axiforma Bold Italic';
+    src: url('../fonts/Axiforma/Kastelov - Axiforma Bold Italic.otf');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Axiforma Bold';
+    src: url('../fonts/Axiforma/Kastelov - Axiforma Bold.otf');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Axiforma Medium Italic';
+    src: url('../fonts/Axiforma/Kastelov - Axiforma Medium Italic.otf');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Axiforma Medium';
+    src: url('../fonts/Axiforma/Kastelov - Axiforma Medium.otf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Axiforma Light Italic';
+    src: url('../fonts/Axiforma/Kastelov - Axiforma Light Italic.otf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Axiforma Light';
+    src: url('../fonts/Axiforma/Kastelov - Axiforma Light.otf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+.lblformulario {
+    font-family: 'Axiforma Light';
+    font-size: 14px;
+    color: #9194A7;
+}
+
 html,
 body {
-    font-family: 'Opens Sans', helvetica;
     height: 100%;
     width: 100%;
     margin: 0px;
