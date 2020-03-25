@@ -1,0 +1,398 @@
+.bg-auna-sea {
+    background-color: #00B0CA;
+}
+
+.bg-auna-plant {
+    background-color: #C2DF0A;
+}
+
+.bg-auna-orange {
+    background-color: #EFAA01;
+}
+
+h1 {
+    font-family: 'Axiforma Book';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 0px;
+}
+
+h2 {
+    font-family: 'Axiforma Light';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 45px;
+    line-height: 54px;
+    letter-spacing: 0px;
+}
+
+h3 {
+    font-family: 'Axiforma Book';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 41px;
+    letter-spacing: 0px;
+}
+
+h4 {
+    font-family: 'Axiforma Book';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0px;
+}
+
+h5 {
+    font-family: 'Axiforma Book';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0px;
+}
+
+h6 {
+    font-family: 'Axiforma Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0px;
+}
+
+.subTitle1 {
+    font-family: 'Axiforma Book';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0px;
+}
+
+.subTitle2 {
+    font-family: 'Axiforma Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0px;
+}
+
+.subTitle3 {
+    font-family: 'Axiforma Book';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.subTitle4 {
+    font-family: 'Axiforma Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1.5px;
+}
+
+.subTitle5 {
+    font-family: 'Axiforma Book';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1.5px;
+}
+
+.body1 {
+    font-family: 'Axiforma Light';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1.5px;
+}
+
+.body2 {
+    font-family: 'Axiforma Light';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 1.5px;
+}
+
+.body3 {
+    font-family: 'Axiforma Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 1.5px;
+}
+
+.body4 {
+    font-family: 'Axiforma Light';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+
+/*************BUTTONS***********/
+
+.btn-md {
+    margin: 24px 0px 24px 0px;
+    padding: 14px 20px 14px 20px;
+    border-radius: 24px;
+    font-family: 'Axiforma Medium';
+    color: #fff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    background: #00B0CA;
+    border: 1px solid #00B0CA;
+}
+
+.btn-md:hover {
+    margin: 24px 0px 24px 0px;
+    padding: 14px 20px 14px 20px;
+    border-radius: 24px;
+    font-family: 'Axiforma Medium';
+    color: #fff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    background: #0BC1DC;
+    border: 1px solid #0BC1DC;
+}
+
+.btn-md:active {
+    margin: 24px 0px 24px 0px;
+    padding: 14px 20px 14px 20px;
+    border-radius: 24px;
+    font-family: 'Axiforma Medium';
+    color: #fff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    background: #029FB7;
+    border: 1px solid #029FB7;
+}
+
+input[type="button"].btn-md:disabled {
+    margin: 24px 0px 24px 0px;
+    padding: 14px 20px 14px 20px;
+    border-radius: 24px;
+    font-family: 'Axiforma Medium';
+    color: #B8BCD5;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    background: #F1F2F7;
+    border: 1px solid #F1F2F7;
+}
+
+.btn-md-outline {
+    margin: 24px 0px 24px 0px;
+    padding: 14px 20px 14px 20px;
+    border-radius: 24px;
+    font-family: 'Axiforma Medium';
+    color: #00B0CA;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    background: #fff;
+    border: 1px solid #00B0CA;
+}
+
+.btn-md-outline:hover {
+    margin: 24px 0px 24px 0px;
+    padding: 14px 20px 14px 20px;
+    border-radius: 24px;
+    font-family: 'Axiforma Medium';
+    color: #fff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    background: #0BC1DC;
+    border: 1px solid #0BC1DC;
+}
+
+.btn-md-outline:active {
+    margin: 24px 0px 24px 0px;
+    padding: 14px 20px 14px 20px;
+    border-radius: 24px;
+    font-family: 'Axiforma Medium';
+    color: #fff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    background: #029FB7;
+    border: 1px solid #029FB7;
+}
+
+.btn-sm {
+    margin: 24px 0px 24px 0px;
+    padding: 6px 16px 6px 16px;
+    border-radius: 24px;
+    font-size: 14px;
+    font-family: 'Axiforma Medium';
+    color: #fff;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    background: #00B0CA;
+    border: 1px solid #00B0CA;
+}
+
+.btn-sm:hover {
+    margin: 24px 0px 24px 0px;
+    padding: 6px 16px 6px 16px;
+    border-radius: 24px;
+    font-size: 14px;
+    font-family: 'Axiforma Medium';
+    color: #fff;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    background: #0BC1DC;
+    border: 1px solid #0BC1DC;
+}
+
+.btn-sm:active {
+    margin: 24px 0px 24px 0px;
+    padding: 6px 16px 6px 16px;
+    border-radius: 24px;
+    font-size: 14px;
+    font-family: 'Axiforma Medium';
+    color: #fff;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    background: #029FB7;
+    border: 1px solid #029FB7;
+}
+
+input[type="button"].btn-sm:disabled {
+    margin: 24px 0px 24px 0px;
+    padding: 6px 16px 6px 16px;
+    border-radius: 24px;
+    font-size: 14px;
+    font-family: 'Axiforma Medium';
+    color: #B8BCD5;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    background: #F1F2F7;
+    border: 1px solid #F1F2F7;
+}
+
+.btn-sm-outline {
+    margin: 24px 0px 24px 0px;
+    padding: 6px 16px 6px 16px;
+    border-radius: 24px;
+    font-size: 14px;
+    font-family: 'Axiforma Medium';
+    color: #00B0CA;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    background: #fff;
+    border: 1px solid #00B0CA;
+}
+
+.btn-sm-outline:hover {
+    margin: 24px 0px 24px 0px;
+    padding: 6px 16px 6px 16px;
+    border-radius: 24px;
+    font-size: 14px;
+    font-family: 'Axiforma Medium';
+    color: #fff;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    background: #0BC1DC;
+    border: 1px solid #0BC1DC;
+}
+
+.btn-sm-outline:active {
+    margin: 24px 0px 24px 0px;
+    padding: 6px 16px 6px 16px;
+    border-radius: 24px;
+    font-size: 14px;
+    font-family: 'Axiforma Medium';
+    color: #fff;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    background: #029FB7;
+    border: 1px solid #029FB7;
+}
+
+
+/*************FIN BUTTONS***********/
+
+input[type="text"] {
+    width: 100%;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+input[type="text"]:focus {
+    border-color: dodgerBlue;
+    box-shadow: 0 0 8px 0 dodgerBlue;
+}
+
+.inputWithIcon input[type="text"] {
+    padding-left: 40px;
+}
+
+.inputWithIcon {
+    position: relative;
+}
+
+.inputWithIcon i {
+    position: absolute;
+    rigth: 0;
+    top: 8px;
+    padding: 9px 8px;
+    color: #aaa;
+    transition: 0.3s;
+}
+
+.inputWithIcon input[type="text"]:focus+i {
+    color: dodgerBlue;
+}
+
+.inputWithIcon.inputIconBg i {
+    background-color: #aaa;
+    color: #fff;
+    padding: 9px 4px;
+    border-radius: 4px 0 0 4px;
+}
+
+.inputWithIcon.inputIconBg input[type="text"]:focus+i {
+    color: #fff;
+    background-color: dodgerBlue;
+}
+
+
+/*************INPUT***********/

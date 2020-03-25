@@ -13,15 +13,57 @@
 }
 
 @font-face {
+    font-family: 'Axiforma Book Italic';
+    src: url('../fonts/Axiforma/Kastelov - Axiforma Book Italic.otf');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Axiforma Book';
+    src: url('../fonts/Axiforma/Kastelov - Axiforma Book.otf');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Axiforma ExtraBold Italic';
+    src: url('../fonts/Axiforma/Kastelov - Axiforma ExtraBold Italic.otf');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Axiforma ExtraBold';
+    src: url('../fonts/Axiforma/Kastelov - Axiforma ExtraBold.otf');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Axiforma Light Italic';
+    src: url('../fonts/Axiforma/Kastelov - Axiforma Light Italic.otf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Axiforma Light';
+    src: url('../fonts/Axiforma/Kastelov - Axiforma Light.otf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
     font-family: 'Axiforma Medium Italic';
     src: url('../fonts/Axiforma/Kastelov - Axiforma Medium Italic.otf');
-    font-weight: 600;
+    font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Axiforma Medium';
     src: url('../fonts/Axiforma/Kastelov - Axiforma Medium.otf');
-    font-weight: 800;
     font-style: normal;
+    font-weight: normal;
 }
