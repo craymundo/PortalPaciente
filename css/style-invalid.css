@@ -1,0 +1,205 @@
+.text-help {
+    font-family: 'Axiforma Book';
+    font-style: normal;
+    font-weight: normal;
+    width: 100%;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #131336;
+}
+
+.text-send {
+    font-family: 'Axiforma Light';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    margin-bottom: 0;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    color: #131336;
+}
+
+.lbl-mail {
+    font-family: 'Axiforma Light';
+    font-style: normal;
+    font-weight: normal;
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    color: #9194A7;
+}
+
+.input-recover {
+    display: block;
+    width: 100%;
+    border: 1px solid #E4E5ED;
+    border-radius: 4px;
+    margin: 8px 0 8px 0px;
+    outline: none;
+    padding: 12px 16px 12px 16px;
+    box-sizing: border-box;
+    transition: 0.3s;
+    font-family: 'Axiforma Book';
+    font-size: 14px;
+    color: #9194A7;
+    line-height: 18px;
+    letter-spacing: 0.015em;
+    height: 48px;
+}
+
+.text-send-new {
+    font-family: 'Axiforma Light';
+    font-style: normal;
+    font-weight: 300;
+    width: 80%;
+    font-size: 12px;
+    margin-top: 10px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    color: #131336;
+}
+
+.text-footer {
+    font-family: 'Axiforma Book';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 36px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.015em;
+    color: #131336;
+}
+
+.content_form_success {
+    width: 500px;
+    height: auto;
+    margin: 0px auto;
+    display: block;
+}
+
+.logo-success {
+    margin-top: 74px;
+}
+
+.logo-mail {
+    width: 52%;
+    margin-top: 40px;
+}
+
+@media (max-width: 575px) {
+    .content_form_success{
+        width: 350px;
+        display: block;
+    }
+
+    .text-help {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .text-send{
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .text-send-new {
+        font-size: 14px;
+        line-height: 21px;
+        width: 101%;
+    }
+
+    .logo-mail{
+        width: 160px;
+        margin-top: 70px;
+    }
+
+    .logo-success{
+        width: 135px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .content_form_success{
+        width: 350px;
+        display: block;
+    }
+
+    .text-help {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .text-send{
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .text-send-new {
+        font-size: 14px;
+        line-height: 21px;
+        width: 101%;
+    }
+
+    .logo-mail{
+        width: 160px;
+        margin-top: 70px;
+    }
+
+    .logo-success{
+        width: 135px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .content_form_success{
+        width: 350px;
+        display: block;
+    }
+
+    .text-help {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .text-send{
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .text-send-new {
+        font-size: 14px;
+        line-height: 21px;
+        width: 101%;
+    }
+
+    .logo-mail{
+        width: 160px;
+        margin-top: 70px;
+    }
+
+    .logo-success{
+        width: 135px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .content_form_success{
+        width: 500px;
+        display: block;
+    }
+}
+
+@media (min-width: 1200px) {
+    .content_form_success{
+        width: 500px;
+        display: block;
+    }
+}
