@@ -1,28 +1,24 @@
 @font-face {
     font-family: 'Axiforma Bold Italic';
     src: url('../fonts/Axiforma/Kastelov - Axiforma Bold Italic.otf');
-    font-weight: 600;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Axiforma Bold';
     src: url('../fonts/Axiforma/Kastelov - Axiforma Bold.otf');
-    font-weight: 800;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Axiforma Book Italic';
     src: url('../fonts/Axiforma/Kastelov - Axiforma Book Italic.otf');
-    font-weight: 600;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Axiforma Book';
     src: url('../fonts/Axiforma/Kastelov - Axiforma Book.otf');
-    font-weight: 800;
     font-style: normal;
 }
 
