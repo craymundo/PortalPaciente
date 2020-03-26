@@ -2,12 +2,80 @@
     background-color: #00B0CA;
 }
 
+.lbl-auna-sea {
+    color: #00B0CA;
+}
+
 .bg-auna-plant {
     background-color: #C2DF0A;
 }
 
+.lbl-auna-plant {
+    color: #C2DF0A;
+}
+
 .bg-auna-orange {
     background-color: #EFAA01;
+}
+
+.lbl-auna-orange {
+    color: #EFAA01;
+}
+
+.bg-auna-dark {
+    background-color: #131336;
+}
+
+.lbl-auna-dark {
+    color: #131336;
+}
+
+.bg-auna-grey-dark {
+    background-color: #9194A7;
+}
+
+.lbl-auna-grey-dark {
+    color: #9194A7;
+}
+
+.bg-auna-grey-soft {
+    background-color: #B8BCD5;
+}
+
+.lbl-auna-grey-soft {
+    background-color: #B8BCD5;
+}
+
+.bg-auna-grey-medium {
+    background-color: #E4E5ED;
+}
+
+.lbl-auna-grey-medium {
+    color: #E4E5ED;
+}
+
+.bg-auna-grey-light {
+    background-color: #F1F2F7;
+}
+
+.lbl-auna-grey-light {
+    color: #F1F2F7;
+}
+
+.bg-auna-sky {
+    background-color: #E6F6F9;
+}
+
+.lbl-auna-sky {
+    color: #E6F6F9;
+}
+
+.bg-auna-red {
+    background-color: #E84545;
+}
+
+.lbl-error-auna-red {
+    background-color: #E84545;
 }
 
 h1 {
@@ -338,18 +406,50 @@ input[type="button"].btn-sm:disabled {
 
 /*************FIN BUTTONS***********/
 
-.fa-fw {
+
+/***********INICIO:Input Simple***********/
+
+input[type="text"].txtWithoutIcon {
+    width: 100%;
+    border: 1px solid #E4E5ED;
+    border-radius: 4px;
+    margin: 8px 0 8px 0px;
+    outline: none;
+    padding: 12px 16px 12px 16px;
+    box-sizing: border-box;
+    transition: 0.3s;
+    font-family: 'Axiforma Book';
+    font-size: 14px;
+    color: #9194A7;
+    line-height: 18px;
+    letter-spacing: 0.015em;
+    height: 48px;
+}
+
+input[type="text"].txtWithoutIcon:focus,
+input[type="text"].txtWithoutIcon:hover {
+    border: 1px solid #00B0CA;
+    color: #131336;
+}
+
+
+/***********FIN:Input Simple***********/
+
+
+/***********Input With Image ***********/
+
+input[type="text"].txtWithIcon .fa-fw {
     width: 1.28571429em;
     text-align: center;
 }
 
-.fa-lg {
+input[type="text"].txtWithIcon .fa-lg {
     font-size: 1.33333333em;
     line-height: 0.75em;
     vertical-align: -15%;
 }
 
-.fa {
+input[type="text"].txtWithIcon .fa {
     display: inline-block;
     font-size: inherit;
     text-rendering: auto;
@@ -357,54 +457,138 @@ input[type="button"].btn-sm:disabled {
     -moz-osx-font-smoothing: grayscale;
 }
 
-input[type="text"] {
+input[type="text"].txtWithIcon {
     width: 100%;
-    border: 2px solid #aaa;
+    border: 1px solid #E4E5ED;
     border-radius: 4px;
-    margin: 8px 0;
+    margin: 8px 0 8px 0px;
     outline: none;
-    padding: 8px;
+    padding: 12px 16px 12px 16px;
     box-sizing: border-box;
     transition: 0.3s;
+    font-family: 'Axiforma Book';
+    font-size: 14px;
+    color: #9194A7;
+    line-height: 18px;
+    letter-spacing: 0.015em;
+    height: 48px;
 }
 
-input[type="text"]:focus {
-    border-color: dodgerBlue;
-    box-shadow: 0 0 8px 0 dodgerBlue;
+input[type="text"].txtWithIcon:hover {
+    border-color: #E4E5ED;
+    color: #131336;
 }
 
-.inputWithIcon input[type="text"] {
-    padding-left: 40px;
+input[type="text"].txtWithIcon:focus {
+    border-color: #00B0CA;
+    color: #131336;
 }
 
-.inputWithIcon {
-    position: relative;
+.inputWithIcon input[type="text"].txtWithIcon:focus+i {
+    color: #00B0CA;
+}
+
+.inputWithIcon input[type="text"].txtWithIcon:hover+i {
+    color: #00B0CA;
 }
 
 .inputWithIcon i {
     position: absolute;
-    right: 15px;
+    right: 26px;
     top: 13px;
     padding: 9px 8px;
-    color: #aaa;
+    color: #00B0CA;
     transition: 0.3s;
 }
 
-.inputWithIcon input[type="text"]:focus+i {
-    color: dodgerBlue;
+
+/***********Input With Image Error***********/
+
+input[type="text"].txtWithIcon.error {
+    border: 1px solid #E84545;
+    color: #131336;
 }
 
-.inputWithIcon.inputIconBg i {
-    background-color: #aaa;
-    color: #fff;
-    padding: 9px 4px;
-    border-radius: 4px 0 0 4px;
+.inputWithIcon i.error {
+    color: #E84545;
 }
 
-.inputWithIcon.inputIconBg input[type="text"]:focus+i {
-    color: #fff;
-    background-color: dodgerBlue;
+.inputWithIcon input[type="text"].txtWithIcon:focus+i.error {
+    color: #E84545;
 }
 
 
-/*************INPUT***********/
+/***********FIN Input Error***********/
+
+
+/*************SELECT***********/
+
+.holder {
+    margin: 0 auto;
+    width: 100%;
+    margin: 8px 0px;
+}
+
+.select-wrap {
+    position: relative;
+}
+
+.select-wrap select {
+    display: block;
+    width: 100%;
+    height: 48px;
+    font-family: 'Axiforma Book';
+    font-size: 14px;
+    color: #131336;
+    line-height: 18px;
+    letter-spacing: 0.015em;
+    padding: 12px 16px 12px 16px;
+    border: 1px solid #E4E5ED;
+    background: #fff;
+    border-radius: 4px;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    color: #9194A7;
+}
+
+.select-wrap select:focus {
+    border: 1px solid #00B0CA;
+    color: #131336;
+}
+
+.select-wrap:after {
+    content: "";
+    position: absolute;
+    pointer-events: none;
+    top: 22px;
+    right: 17px;
+    width: 0;
+    height: 0;
+    border-width: 5px 4px;
+    border-style: solid;
+    border-color: #00B0CA transparent transparent transparent;
+}
+
+.select-wrap select::-ms-expand {
+    display: none;
+}
+
+.select-wrap select.error {
+    border: 1px solid #E84545;
+    color: #131336;
+}
+
+.select-wrap select.error:focus {
+    border: 1px solid #E84545;
+    color: #131336;
+}
+
+.select-wrap.error:after {
+    border-color: #E84545 transparent transparent transparent;
+}
+
+
+/*************FIN SELECT*******/

@@ -1,0 +1,21 @@
+
+Example Input With Icon:
+
+<div class="inputWithIcon">
+	<input type="text" class="txtWithIcon error" placeholder="Your name">
+	<i class="fa icon-arroba fa-lg fa-fw error" aria-hidden="true"></i>
+</div>
+
+Example Select:
+
+<div class="holder">
+	<div class="select-wrap error">
+		<select class="error">
+	  <option>This is option 1</option>
+	  <option>This is option 2</option>
+	  <option>This is option 3</option>
+	  <option>This is option 4</option>
+	  <option>This is option 5</option>
+	</select>
+	</div>
+</div>
