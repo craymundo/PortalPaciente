@@ -110,10 +110,16 @@
     .text-send-new {
         font-size: 14px;
         line-height: 21px;
+        width: 101%;
     }
 
     .logo-mail{
         width: 160px;
+        margin-top: 30px;
+    }
+
+    .logo-success{
+        width: 135px;
     }
 }
 
@@ -136,10 +142,16 @@
     .text-send-new {
         font-size: 14px;
         line-height: 21px;
+        width: 101%;
     }
 
     .logo-mail{
         width: 160px;
+        margin-top: 30px;
+    }
+
+    .logo-success{
+        width: 135px;
     }
 }
 
@@ -162,10 +174,16 @@
     .text-send-new {
         font-size: 14px;
         line-height: 21px;
+        width: 101%;
     }
 
     .logo-mail{
         width: 160px;
+        margin-top: 30px;
+    }
+
+    .logo-success{
+        width: 135px;
     }
 }
 
