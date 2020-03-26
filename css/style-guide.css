@@ -186,7 +186,7 @@ h6 {
     font-weight: 300;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 1.5px;
+    letter-spacing: 0.015em;
 }
 
 .body2 {
@@ -195,7 +195,7 @@ h6 {
     font-weight: 300;
     font-size: 14px;
     line-height: 21px;
-    letter-spacing: 1.5px;
+    letter-spacing: 0.015em;
 }
 
 .body3 {
@@ -204,7 +204,7 @@ h6 {
     font-weight: 500;
     font-size: 12px;
     line-height: 18px;
-    letter-spacing: 1.5px;
+    letter-spacing: 0.015em;
 }
 
 .body4 {
@@ -213,6 +213,7 @@ h6 {
     font-weight: 300;
     font-size: 12px;
     line-height: 18px;
+    letter-spacing: 0.015em;
 }
 
 

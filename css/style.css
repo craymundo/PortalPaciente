@@ -80,6 +80,9 @@ body {
 }
 
 @media (max-width: 575px) {
+    .content_form {
+        width: 100%;
+    }
     .div-subtitulo-login-1 {
         margin-top: 0%;
     }
@@ -95,6 +98,9 @@ body {
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
+    .content_form {
+        width: 100%;
+    }
     .div-subtitulo-login-1 {
         margin-top: 0%;
     }
