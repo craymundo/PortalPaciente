@@ -78,6 +78,10 @@
     background-color: #E84545;
 }
 
+a {
+    color: #00B0CA!important;
+}
+
 h1 {
     font-family: 'Axiforma Book';
     font-style: normal;
@@ -164,7 +168,7 @@ h6 {
     font-weight: 500;
     font-size: 14px;
     line-height: 18px;
-    letter-spacing: 1.5px;
+    letter-spacing: 0.015em;
 }
 
 .subTitle5 {
@@ -607,3 +611,47 @@ input[type="text"].txtWithIcon.error {
     letter-spacing: 0.015em;
     color: #9194A7;
 }
+
+
+/**********************************************/
+
+.custom_checkbox input[type="checkbox"] {
+    display: none;
+}
+
+.custom_checkbox input[type="checkbox"]+label {
+    cursor: pointer;
+    font-family: 'Axiforma Book';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.015em;
+    color: #131336;
+}
+
+.custom_checkbox input[type="checkbox"]+label:before {
+    background: #00B0CA;
+    height: 21px;
+    border: 2px solid #00B0CA;
+    content: " ";
+    display: inline-block;
+    width: 21px;
+    vertical-align: middle;
+    margin-right: 10px;
+    position: relative;
+    top: -1px;
+}
+
+.custom_checkbox input[type="checkbox"]:checked+label:before {
+    content: "\e906";
+    color: #fff;
+    font-size: 12px;
+    font-weight: lighter;
+    font-family: 'icomoon';
+    text-align: center;
+    line-height: 21px;
+}
+
+
+/****************************************************************/

@@ -38,7 +38,7 @@ body {
 }
 
 .content_form {
-    width: 320px;
+    width: 360px;
     height: auto;
     margin: 0px auto;
     display: block;
@@ -75,9 +75,19 @@ body {
     border-right: 0px;
 }
 
+.div-subtitulo-login-1 {
+    margin-top: 10%;
+}
+
 @media (max-width: 575px) {
-    .img_login {
+    .div-subtitulo-login-1 {
+        margin-top: 0%;
+    }
+    .content_login .content_login_left {
         display: none;
+    }
+    .logo {
+        width: 35%;
     }
     .content_login .content_login_right {
         width: 100%;
@@ -85,8 +95,14 @@ body {
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-    .img_login {
+    .div-subtitulo-login-1 {
+        margin-top: 0%;
+    }
+    .content_login .content_login_left {
         display: none;
+    }
+    .logo {
+        width: 35%;
     }
     .content_login .content_login_right {
         width: 100%;
@@ -94,18 +110,29 @@ body {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .img_login {
-        display: block;
+    .div-subtitulo-login-1 {
+        margin-top: 0%;
+    }
+    .content_login .content_login_left {
+        display: none;
+    }
+    .logo {
+        width: auto;
     }
     .content_login .content_login_right {
-        width: 50%;
-        float: right;
+        width: 100%;
     }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    .img_login {
+    .div-subtitulo-login-1 {
+        margin-top: 10%;
+    }
+    .content_login .content_login_left {
         display: block;
+    }
+    .logo {
+        width: auto;
     }
     .content_login .content_login_right {
         width: 50%;
@@ -114,8 +141,14 @@ body {
 }
 
 @media (min-width: 1200px) {
-    .img_login {
+    .div-subtitulo-login-1 {
+        margin-top: 10%;
+    }
+    .content_login .content_login_left {
         display: block;
+    }
+    .logo {
+        width: auto;
     }
     .content_login .content_login_right {
         width: 50%;
