@@ -1,20 +1,20 @@
 .text-help {
-    font-family: 'Axiforma Light';
+    font-family: 'Axiforma Book';
     font-style: normal;
     font-weight: normal;
+    width: 104%;
     font-size: 24px;
     line-height: 30px;
     text-align: center;
     color: #131336;
 }
 
-.text-put {
+.text-send {
     font-family: 'Axiforma Light';
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
-    margin-bottom: 25px;
-    line-height: 21px;
+    line-height: 20px;
     text-align: center;
     letter-spacing: 0.015em;
     color: #131336;
@@ -51,17 +51,16 @@
     height: 48px;
 }
 
-.btn-enter {
-    margin: 24px 0px 24px 0px;
-    padding: 14px 20px 14px 20px;
-    border-radius: 24px;
-    font-family: 'Axiforma Medium';
-    color: #fff;
+.text-send-new {
+    font-family: 'Axiforma Light';
     font-style: normal;
-    font-size: 16px;
-    line-height: 20px;
-    background: #00B0CA;
-    border: 1px solid #00B0CA;
+    font-weight: 300;
+    width: 80%;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    color: #131336;
 }
 
 .text-footer {
@@ -70,9 +69,116 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 18px;
-    margin-top: 70px;
+    margin-top: 36px;
     align-items: center;
     text-align: center;
     letter-spacing: 0.015em;
     color: #131336;
+}
+
+.content_form_success {
+    width: 500px;
+    height: auto;
+    margin: 0px auto;
+    display: block;
+}
+
+.logo-success {
+    margin-top: 74px;
+}
+
+.logo-mail {
+    margin-top: 0;
+}
+
+@media (max-width: 575px) {
+    .content_form_success{
+        width: 334px;
+        display: block;
+    }
+
+    .text-help {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .text-send{
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .text-send-new {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .logo-mail{
+        width: 160px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .content_form_success{
+        width: 334px;
+        display: block;
+    }
+
+    .text-help {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .text-send{
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .text-send-new {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .logo-mail{
+        width: 160px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .content_form_success{
+        width: 334px;
+        display: block;
+    }
+
+    .text-help {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .text-send{
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .text-send-new {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .logo-mail{
+        width: 160px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .content_form_success{
+        width: 500px;
+        display: block;
+    }
+}
+
+@media (min-width: 1200px) {
+    .content_form_success{
+        width: 500px;
+        display: block;
+    }
 }
