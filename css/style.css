@@ -37,6 +37,13 @@ body {
     margin-top: 20%;
 }
 
+.content_form {
+    width: 320px;
+    height: auto;
+    margin: 0px auto;
+    display: block;
+}
+
 @media (max-width: 575px) {
     .img_login {
         display: none;

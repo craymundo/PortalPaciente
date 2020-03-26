@@ -592,3 +592,17 @@ input[type="text"].txtWithIcon.error {
 
 
 /*************FIN SELECT*******/
+
+
+/****************LABEL INPUT**************/
+
+.lbl-input-control {
+    font-family: 'Axiforma Book';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    color: #9194A7;
+}
