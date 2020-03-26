@@ -40,7 +40,7 @@
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
-.btn-enter{
+.btn-enter {
     background-color: #00B0CA;
     border: none;
     color: white;
@@ -52,94 +52,4 @@
     font-size: 15px;
     margin-left: auto;
     margin-right: auto;
-}
-
-html,
-body {
-    height: 100%;
-    width: 100%;
-    margin: 0px;
-}
-
-.content_login {
-    width: 100%;
-}
-
-.img_login {
-    max-width: 100%;
-    max-height: 100%;
-    width: 100%;
-}
-
-.content_login .content_login_left {
-    display: block;
-    float: left;
-    width: 50%;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-}
-
-.content_login .content_login_right {
-    display: block;
-    float: right;
-    width: 50%;
-    position: relative;
-    top: 0;
-    bottom: 0;
-}
-
-.logo {
-    margin-top: 16%;
-    width: 26%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-@media (max-width: 575px) {
-    .img_login {
-        display: none;
-    }
-    .content_login .content_login_right {
-        width: 100%;
-    }
-}
-
-@media (min-width: 576px) and (max-width: 767px) {
-    .img_login {
-        display: none;
-    }
-    .content_login .content_login_right {
-        width: 100%;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-    .img_login {
-        display: block;
-    }
-    .content_login .content_login_right {
-        width: 50%;
-        float: right;
-    }
-}
-
-@media (min-width: 992px) and (max-width: 1199px) {
-    .img_login {
-        display: block;
-    }
-    .content_login .content_login_right {
-        width: 50%;
-        float: right;
-    }
-}
-
-@media (min-width: 1200px) {
-    .img_login {
-        display: block;
-    }
-    .content_login .content_login_right {
-        width: 50%;
-        float: right;
-    }
 }
