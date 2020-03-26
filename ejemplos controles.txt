@@ -19,3 +19,16 @@ Example Select:
 	</select>
 	</div>
 </div>
+
+Example RadioButton:
+
+<div class="custom_radio">
+  <input type="radio" id="featured-1" name="featured" checked><label for="featured-1">Custom Radio Button 1</label>
+</div>
+
+Example Checkbox:
+
+<div class="custom_checkbox">
+       <input type="checkbox" name="custom_checkbox" id="custom_checkbox" value="custom_checkbox">
+       <label for="custom_checkbox">Custom Checkbox</label>
+</div>
