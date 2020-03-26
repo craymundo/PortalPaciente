@@ -1,7 +1,57 @@
-.lblformulario {
+.text-recover {
     font-family: 'Axiforma Light';
-    font-size: 14px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #131336;
+    text-align: center;
+}
+
+.text-put {
+    font-family: 'Axiforma Light';
+    font-size: 13px;
+    color: #131336;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
+.lbl-mail {
+    font-family: 'Axiforma Light';
+    font-size: 13px;
     color: #9194A7;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.input-recover {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    font-size: 15px;
+    height: calc(0.2em + 0.20rem);
+    padding: 1.2rem 0.75rem;
+    color: #495057;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn-enter{
+    background-color: #00B0CA;
+    border: none;
+    color: white;
+    width: 160px;
+    padding: 10px;
+    text-align: center;
+    display: block;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 html,
@@ -40,7 +90,10 @@ body {
 }
 
 .logo {
-    margin-top: 25%;
+    margin-top: 16%;
+    width: 26%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media (max-width: 575px) {
