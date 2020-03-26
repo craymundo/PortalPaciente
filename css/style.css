@@ -111,17 +111,16 @@ body {
 
 @media (min-width: 768px) and (max-width: 991px) {
     .div-subtitulo-login-1 {
-        margin-top: 10%;
+        margin-top: 0%;
     }
     .content_login .content_login_left {
-        display: block;
+        display: none;
     }
     .logo {
         width: auto;
     }
     .content_login .content_login_right {
-        width: 50%;
-        float: right;
+        width: 100%;
     }
 }
 
