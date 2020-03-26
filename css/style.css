@@ -34,7 +34,7 @@ body {
 }
 
 .logo {
-    margin-top: 25%;
+    margin-top: 27%;
 }
 
 .content_form {
@@ -42,6 +42,10 @@ body {
     height: auto;
     margin: 0px auto;
     display: block;
+}
+
+.form-group {
+    margin-bottom: 24px!important;
 }
 
 @media (max-width: 575px) {
