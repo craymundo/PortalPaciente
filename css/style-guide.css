@@ -685,29 +685,31 @@ input[type="password"].txtWithIcon.error {
 
 @media (max-width: 320px) {
     .inputWithIcon>i {
-        margin-top: 5.2%!important;
+        margin-top: 5.2%;
     }
     .content_form {
-        padding-right: 16px!important;
-        padding-left: 16px!important;
+        padding-right: 16px;
+        padding-left: 16px;
     }
     .col-lg-12 {
         padding-right: 0px;
         padding-left: 0px;
+        margin-top: 16px;
     }
 }
 
 @media (min-width: 321px) and (max-width: 360px) {
     .inputWithIcon>i {
-        margin-top: 5.2%!important;
+        margin-top: 5.2%;
     }
     .content_form {
-        padding-right: 24px!important;
-        padding-left: 24px!important;
+        padding-right: 24px;
+        padding-left: 24px;
     }
     .col-lg-12 {
         padding-right: 0px;
         padding-left: 0px;
+        margin-top: 24px;
     }
     .inputWithIcon>i {
         margin-top: 3.5%;
