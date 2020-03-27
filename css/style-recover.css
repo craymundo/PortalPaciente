@@ -77,25 +77,43 @@
     color: #131336;
 }
 
+.content_form {
+    width: 360px;
+    height: 100%;
+    display: table;
+    margin: 0px auto;
+    margin-top: -10%;
+}
+
 ::placeholder {
     color: #9194A7;
 }
 
 .logo {
-    margin-top: 27%;
+    margin-top: 52%;
 }
 
 @media (max-width: 575px) {
+    .content_form{
+        width: 90%;
+    }
 
+    .logo{
+        margin-top: 45%;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-
+    .logo {
+        width: 50%;
+        margin-top: 55%;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
     .logo {
         width: 50%;
+        margin-top: 55%;
     }
 }
 

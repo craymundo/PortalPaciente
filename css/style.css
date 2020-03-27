@@ -51,6 +51,15 @@ body {
     display: block;*/
 }
 
+.subTitle5 {
+    font-family: 'Axiforma Book';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.015em;
+}
+
 .row-middle {
     vertical-align: middle;
     height: 100%;
@@ -137,7 +146,7 @@ body {
         display: none;
     }
     .logo {
-        width: auto;
+        width: 50%;
     }
     .content_login .content_login_right {
         width: 100%;
@@ -152,7 +161,7 @@ body {
         display: block;
     }
     .logo {
-        width: auto;
+        width: 50%;
     }
     .content_login .content_login_right {
         width: 50%;
@@ -168,7 +177,7 @@ body {
         display: block;
     }
     .logo {
-        width: auto;
+        width: 55%;
     }
     .content_login .content_login_right {
         width: 50%;
