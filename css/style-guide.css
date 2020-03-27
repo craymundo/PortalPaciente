@@ -80,6 +80,13 @@
 
 a {
     color: #00B0CA!important;
+    letter-spacing: 0.015em;
+}
+
+a:hover {
+    letter-spacing: 0.015em;
+    text-decoration-line: underline;
+    color: #00B0CA;
 }
 
 h1 {
@@ -603,7 +610,7 @@ input[type="password"].txtWithIcon.error {
     display: inline-block;
     width: 20px;
     vertical-align: middle;
-    margin-right: 10px;
+    margin-right: 8px;
     position: relative;
     top: -1px;
 }
@@ -674,4 +681,34 @@ input[type="password"].txtWithIcon.error {
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
     box-shadow: inset 0 0 0 0.2em white, inset 0 0 0 1em #4CAF50;
+}
+
+@media (max-width: 575px) {
+    .inputWithIcon>i {
+        margin-top: 3.5%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .inputWithIcon>i {
+        margin-top: 3.5%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .inputWithIcon>i {
+        margin-top: 4.5%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .inputWithIcon>i {
+        margin-top: 4.5%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .inputWithIcon>i {
+        margin-top: 4.5%;
+    }
 }
