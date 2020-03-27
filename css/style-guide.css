@@ -718,13 +718,13 @@ input[type="password"].txtWithIcon.error {
 
 @media (max-width: 575px) {
     .inputWithIcon>i {
-        margin-top: 3.5%;
+        margin-top: 5.5%;
     }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
     .inputWithIcon>i {
-        margin-top: 3.5%;
+        margin-top: 5.5%;
     }
 }
 

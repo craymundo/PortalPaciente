@@ -39,7 +39,7 @@ body {
 
 .logo {
     /* margin-top: 27%; */
-    margin-top: 15%;
+    margin-top: 35%;
 }
 
 .content_form {
@@ -99,7 +99,7 @@ body {
 }
 
 .div-subtitulo-login-1 {
-    margin-top: 10%;
+    margin-bottom: 15%;
 }
 
 @media (max-width: 575px) {
@@ -155,7 +155,7 @@ body {
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .div-subtitulo-login-1 {
-        margin-top: 10%;
+        margin-bottom: 15%;
     }
     .content_login .content_login_left {
         display: block;
@@ -171,7 +171,7 @@ body {
 
 @media (min-width: 1200px) {
     .div-subtitulo-login-1 {
-        margin-top: 10%;
+        margin-bottom: 15%;
     }
     .content_login .content_login_left {
         display: block;
