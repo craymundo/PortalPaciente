@@ -132,7 +132,7 @@ body {
         display: none;
     }
     .logo {
-        width: auto;
+        width: 50%;
     }
     .content_login .content_login_right {
         width: 100%;
@@ -147,7 +147,7 @@ body {
         display: block;
     }
     .logo {
-        width: auto;
+        width: 50%;
     }
     .content_login .content_login_right {
         width: 50%;
@@ -163,7 +163,7 @@ body {
         display: block;
     }
     .logo {
-        width: auto;
+        width: 55%;
     }
     .content_login .content_login_right {
         width: 50%;
