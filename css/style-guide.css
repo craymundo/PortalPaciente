@@ -382,18 +382,21 @@ input[type="text"].txtWithoutIcon:focus:hover {
 
 /***********Input With Image ***********/
 
-input[type="text"].txtWithIcon .fa-fw {
+input[type="text"].txtWithIcon .fa-fw,
+input[type="password"].txtWithIcon .fa-fw {
     width: 1.28571429em;
     text-align: center;
 }
 
-input[type="text"].txtWithIcon .fa-lg {
+input[type="text"].txtWithIcon .fa-lg,
+input[type="password"].txtWithIcon .fa-lg {
     font-size: 1.33333333em;
     line-height: 0.75em;
     vertical-align: -15%;
 }
 
-input[type="text"].txtWithIcon .fa {
+input[type="text"].txtWithIcon .fa,
+input[type="password"].txtWithIcon .fa {
     display: inline-block;
     font-size: inherit;
     text-rendering: auto;
@@ -401,7 +404,8 @@ input[type="text"].txtWithIcon .fa {
     -moz-osx-font-smoothing: grayscale;
 }
 
-input[type="text"].txtWithIcon {
+input[type="text"].txtWithIcon,
+input[type="password"].txtWithIcon {
     width: 100%;
     border: 1px solid #E4E5ED;
     border-radius: 4px;
@@ -418,42 +422,48 @@ input[type="text"].txtWithIcon {
     height: 48px;
 }
 
-input[type="text"].txtWithIcon:focus {
+input[type="text"].txtWithIcon:focus,
+input[type="password"].txtWithIcon:focus {
     border-color: #00B0CA;
     color: #131336;
 }
 
-input[type="text"].txtWithIcon:hover {
+input[type="text"].txtWithIcon:hover,
+input[type="password"].txtWithIcon:hover {
     border-color: #E4E5ED;
     color: #131336;
 }
 
-input[type="text"].txtWithoutIcon:focus:hover {
+input[type="text"].txtWithoutIcon:focus:hover,
+input[type="password"].txtWithoutIcon:focus:hover {
     border: 1px solid #E4E5ED;
     color: #131336;
 }
 
-.inputWithIcon input[type="text"].txtWithIcon:focus+i {
+.inputWithIcon input[type="text"].txtWithIcon:focus+i,
+.inputWithIcon input[type="password"].txtWithIcon:focus+i {
     color: #00B0CA;
 }
 
-.inputWithIcon input[type="text"].txtWithIcon:hover+i {
+.inputWithIcon input[type="text"].txtWithIcon:hover+i,
+.inputWithIcon input[type="password"].txtWithIcon:hover+i {
     color: #00B0CA;
 }
 
-.inputWithIcon i {
+.inputWithIcon>i {
     position: absolute;
     right: 26px;
-    top: 13px;
     padding: 9px 8px;
     color: #00B0CA;
     transition: 0.3s;
+    margin-top: 4.5%;
 }
 
 
 /***********Input With Image Error***********/
 
-input[type="text"].txtWithIcon.error {
+input[type="text"].txtWithIcon.error,
+input[type="password"].txtWithIcon.error {
     border: 1px solid #E84545;
     color: #9194A7;
 }
@@ -462,7 +472,8 @@ input[type="text"].txtWithIcon.error {
     color: #E84545;
 }
 
-.inputWithIcon input[type="text"].txtWithIcon:focus+i.error {
+.inputWithIcon input[type="text"].txtWithIcon:focus+i.error,
+.inputWithIcon input[type="password"].txtWithIcon:focus+i.error {
     color: #E84545;
 }
 
@@ -578,18 +589,19 @@ input[type="text"].txtWithIcon.error {
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 18px;
+    line-height: 16px;
     letter-spacing: 0.015em;
     color: #131336;
 }
 
 .custom_checkbox input[type="checkbox"]+label:before {
     background: #fff;
-    height: 21px;
+    height: 20px;
     border: 2px solid #E4E5ED;
+    border-radius: 2px;
     content: " ";
     display: inline-block;
-    width: 21px;
+    width: 20px;
     vertical-align: middle;
     margin-right: 10px;
     position: relative;
@@ -605,7 +617,7 @@ input[type="text"].txtWithIcon.error {
     font-weight: lighter;
     font-family: 'icomoon';
     text-align: center;
-    line-height: 21px;
+    line-height: 16px;
 }
 
 
