@@ -12,7 +12,10 @@ body {
 .img_login {
     max-width: 100%;
     max-height: 100%;
-    width: 100%;
+    width: 67%;
+    margin: 0px auto;
+    display: table-cell;
+    padding-top: 5%;
 }
 
 .content_login .content_login_left {
@@ -35,7 +38,8 @@ body {
 }
 
 .logo {
-    margin-top: 27%;
+    /* margin-top: 27%; */
+    margin-top: 15%;
 }
 
 .content_form {
@@ -68,7 +72,7 @@ body {
 .subtitle-login-1 {
     position: absolute;
     left: 60px;
-    top: 340px;
+    /*top: 340px;*/
     color: #fff;
     width: 440px;
     border: 3px solid #fff;
@@ -78,10 +82,11 @@ body {
     border-bottom: 3px;
     border-style: solid;
     border-color: #fff;
-    padding-bottom: 46px;
+    padding-bottom: 26px;
     border-bottom-left-radius: 50px 50px;
     border-top: 0px;
     border-right: 0px;
+    bottom: 30px;
 }
 
 .div-subtitulo-login-1 {
