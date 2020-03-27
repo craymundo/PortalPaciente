@@ -22,6 +22,7 @@ body {
     position: absolute;
     top: 0;
     bottom: 0;
+    background: #00B0CA;
 }
 
 .content_login .content_login_right {
