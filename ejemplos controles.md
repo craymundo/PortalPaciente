@@ -1,12 +1,12 @@
 
-Example Input With Icon:
+# Example Input With Icon:
 
 <div class="inputWithIcon">
 	<input type="text" class="txtWithIcon error" placeholder="Your name">
 	<i class="fa icon-arroba fa-lg fa-fw error" aria-hidden="true"></i>
 </div>
 
-Example Select:
+# Example Select:
 
 <div class="holder">
 	<div class="select-wrap error">
@@ -20,13 +20,13 @@ Example Select:
 	</div>
 </div>
 
-Example RadioButton:
+# Example RadioButton:
 
 <div class="custom_radio">
   <input type="radio" id="featured-1" name="featured" checked><label for="featured-1">Custom Radio Button 1</label>
 </div>
 
-Example Checkbox:
+# Example Checkbox:
 
 <div class="custom_checkbox">
        <input type="checkbox" name="custom_checkbox" id="custom_checkbox" value="custom_checkbox">
