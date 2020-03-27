@@ -47,6 +47,15 @@ body {
     display: block;*/
 }
 
+.subTitle5 {
+    font-family: 'Axiforma Book';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.015em;
+}
+
 .row-middle {
     vertical-align: middle;
     height: 100%;
