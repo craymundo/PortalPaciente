@@ -80,3 +80,33 @@
 ::placeholder {
     color: #9194A7;
 }
+
+.logo {
+    margin-top: 27%;
+}
+
+@media (max-width: 575px) {
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .logo {
+        width: 50%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .logo {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .logo {
+        width: 55%;
+    }
+}

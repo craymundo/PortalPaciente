@@ -80,6 +80,13 @@
 
 a {
     color: #00B0CA!important;
+    letter-spacing: 0.015em;
+}
+
+a:hover {
+    letter-spacing: 0.015em;
+    text-decoration-line: underline;
+    color: #00B0CA;
 }
 
 h1 {
@@ -222,59 +229,43 @@ h6 {
 .btn-md {
     margin: 24px 0px 24px 0px;
     padding: 14px 20px 14px 20px;
-    border-radius: 24px;
+    border-radius: 40px;
     font-family: 'Axiforma Medium';
     color: #fff;
     font-style: normal;
     font-size: 16px;
     line-height: 20px;
     background: #00B0CA;
-    border: 1px solid #00B0CA;
+    border: 0px;
+    outline: none;
 }
 
 .btn-md:hover {
-    margin: 24px 0px 24px 0px;
-    padding: 14px 20px 14px 20px;
-    border-radius: 24px;
-    font-family: 'Axiforma Medium';
-    color: #fff;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 20px;
     background: #0BC1DC;
-    border: 1px solid #0BC1DC;
+    color: #fff;
+    border: 0px;
+    outline: none;
 }
 
 .btn-md:active {
-    margin: 24px 0px 24px 0px;
-    padding: 14px 20px 14px 20px;
-    border-radius: 24px;
-    font-family: 'Axiforma Medium';
-    color: #fff;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 20px;
     background: #029FB7;
-    border: 1px solid #029FB7;
+    color: #fff;
+    border: 0px;
+    outline: none;
 }
 
 input[type="button"].btn-md:disabled {
-    margin: 24px 0px 24px 0px;
-    padding: 14px 20px 14px 20px;
-    border-radius: 24px;
-    font-family: 'Axiforma Medium';
     color: #B8BCD5;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 20px;
     background: #F1F2F7;
     border: 1px solid #F1F2F7;
+    border: 0px;
+    outline: none;
 }
 
 .btn-md-outline {
     margin: 24px 0px 24px 0px;
     padding: 14px 20px 14px 20px;
-    border-radius: 24px;
+    border-radius: 40px;
     font-family: 'Axiforma Medium';
     color: #00B0CA;
     font-style: normal;
@@ -285,27 +276,14 @@ input[type="button"].btn-md:disabled {
 }
 
 .btn-md-outline:hover {
-    margin: 24px 0px 24px 0px;
-    padding: 14px 20px 14px 20px;
-    border-radius: 24px;
     font-family: 'Axiforma Medium';
     color: #fff;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 20px;
     background: #0BC1DC;
     border: 1px solid #0BC1DC;
 }
 
 .btn-md-outline:active {
-    margin: 24px 0px 24px 0px;
-    padding: 14px 20px 14px 20px;
-    border-radius: 24px;
-    font-family: 'Axiforma Medium';
     color: #fff;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 20px;
     background: #029FB7;
     border: 1px solid #029FB7;
 }
@@ -313,7 +291,7 @@ input[type="button"].btn-md:disabled {
 .btn-sm {
     margin: 24px 0px 24px 0px;
     padding: 6px 16px 6px 16px;
-    border-radius: 24px;
+    border-radius: 40px;
     font-size: 14px;
     font-family: 'Axiforma Medium';
     color: #fff;
@@ -325,43 +303,17 @@ input[type="button"].btn-md:disabled {
 }
 
 .btn-sm:hover {
-    margin: 24px 0px 24px 0px;
-    padding: 6px 16px 6px 16px;
-    border-radius: 24px;
-    font-size: 14px;
-    font-family: 'Axiforma Medium';
-    color: #fff;
-    font-style: normal;
-    line-height: 18px;
-    letter-spacing: 1.5px;
     background: #0BC1DC;
     border: 1px solid #0BC1DC;
 }
 
 .btn-sm:active {
-    margin: 24px 0px 24px 0px;
-    padding: 6px 16px 6px 16px;
-    border-radius: 24px;
-    font-size: 14px;
-    font-family: 'Axiforma Medium';
-    color: #fff;
-    font-style: normal;
-    line-height: 18px;
-    letter-spacing: 1.5px;
     background: #029FB7;
     border: 1px solid #029FB7;
 }
 
 input[type="button"].btn-sm:disabled {
-    margin: 24px 0px 24px 0px;
-    padding: 6px 16px 6px 16px;
-    border-radius: 24px;
-    font-size: 14px;
-    font-family: 'Axiforma Medium';
     color: #B8BCD5;
-    font-style: normal;
-    line-height: 18px;
-    letter-spacing: 1.5px;
     background: #F1F2F7;
     border: 1px solid #F1F2F7;
 }
@@ -369,7 +321,7 @@ input[type="button"].btn-sm:disabled {
 .btn-sm-outline {
     margin: 24px 0px 24px 0px;
     padding: 6px 16px 6px 16px;
-    border-radius: 24px;
+    border-radius: 40px;
     font-size: 14px;
     font-family: 'Axiforma Medium';
     color: #00B0CA;
@@ -381,29 +333,13 @@ input[type="button"].btn-sm:disabled {
 }
 
 .btn-sm-outline:hover {
-    margin: 24px 0px 24px 0px;
-    padding: 6px 16px 6px 16px;
-    border-radius: 24px;
-    font-size: 14px;
-    font-family: 'Axiforma Medium';
     color: #fff;
-    font-style: normal;
-    line-height: 18px;
-    letter-spacing: 1.5px;
     background: #0BC1DC;
     border: 1px solid #0BC1DC;
 }
 
 .btn-sm-outline:active {
-    margin: 24px 0px 24px 0px;
-    padding: 6px 16px 6px 16px;
-    border-radius: 24px;
-    font-size: 14px;
-    font-family: 'Axiforma Medium';
     color: #fff;
-    font-style: normal;
-    line-height: 18px;
-    letter-spacing: 1.5px;
     background: #029FB7;
     border: 1px solid #029FB7;
 }
@@ -432,9 +368,18 @@ input[type="text"].txtWithoutIcon {
     height: 48px;
 }
 
-input[type="text"].txtWithoutIcon:focus,
-input[type="text"].txtWithoutIcon:hover {
+input[type="text"].txtWithoutIcon:focus {
     border: 1px solid #00B0CA;
+    color: #131336;
+}
+
+input[type="text"].txtWithoutIcon:hover {
+    border: 1px solid #E4E5ED;
+    color: #131336;
+}
+
+input[type="text"].txtWithoutIcon:focus:hover {
+    border: 1px solid #E4E5ED;
     color: #131336;
 }
 
@@ -444,18 +389,21 @@ input[type="text"].txtWithoutIcon:hover {
 
 /***********Input With Image ***********/
 
-input[type="text"].txtWithIcon .fa-fw {
+input[type="text"].txtWithIcon .fa-fw,
+input[type="password"].txtWithIcon .fa-fw {
     width: 1.28571429em;
     text-align: center;
 }
 
-input[type="text"].txtWithIcon .fa-lg {
+input[type="text"].txtWithIcon .fa-lg,
+input[type="password"].txtWithIcon .fa-lg {
     font-size: 1.33333333em;
     line-height: 0.75em;
     vertical-align: -15%;
 }
 
-input[type="text"].txtWithIcon .fa {
+input[type="text"].txtWithIcon .fa,
+input[type="password"].txtWithIcon .fa {
     display: inline-block;
     font-size: inherit;
     text-rendering: auto;
@@ -463,7 +411,8 @@ input[type="text"].txtWithIcon .fa {
     -moz-osx-font-smoothing: grayscale;
 }
 
-input[type="text"].txtWithIcon {
+input[type="text"].txtWithIcon,
+input[type="password"].txtWithIcon {
     width: 100%;
     border: 1px solid #E4E5ED;
     border-radius: 4px;
@@ -480,46 +429,58 @@ input[type="text"].txtWithIcon {
     height: 48px;
 }
 
-input[type="text"].txtWithIcon:hover {
-    border-color: #E4E5ED;
-    color: #131336;
-}
-
-input[type="text"].txtWithIcon:focus {
+input[type="text"].txtWithIcon:focus,
+input[type="password"].txtWithIcon:focus {
     border-color: #00B0CA;
     color: #131336;
 }
 
-.inputWithIcon input[type="text"].txtWithIcon:focus+i {
+input[type="text"].txtWithIcon:hover,
+input[type="password"].txtWithIcon:hover {
+    border-color: #E4E5ED;
+    color: #131336;
+}
+
+input[type="text"].txtWithoutIcon:focus:hover,
+input[type="password"].txtWithoutIcon:focus:hover {
+    border: 1px solid #E4E5ED;
+    color: #131336;
+}
+
+.inputWithIcon input[type="text"].txtWithIcon:focus+i,
+.inputWithIcon input[type="password"].txtWithIcon:focus+i {
     color: #00B0CA;
 }
 
-.inputWithIcon input[type="text"].txtWithIcon:hover+i {
+.inputWithIcon input[type="text"].txtWithIcon:hover+i,
+.inputWithIcon input[type="password"].txtWithIcon:hover+i {
     color: #00B0CA;
 }
 
-.inputWithIcon i {
+.inputWithIcon>i {
     position: absolute;
     right: 26px;
-    top: 13px;
     padding: 9px 8px;
     color: #00B0CA;
     transition: 0.3s;
+    margin-top: 4.5%;
 }
 
 
 /***********Input With Image Error***********/
 
-input[type="text"].txtWithIcon.error {
+input[type="text"].txtWithIcon.error,
+input[type="password"].txtWithIcon.error {
     border: 1px solid #E84545;
-    color: #131336;
+    color: #9194A7;
 }
 
 .inputWithIcon i.error {
     color: #E84545;
 }
 
-.inputWithIcon input[type="text"].txtWithIcon:focus+i.error {
+.inputWithIcon input[type="text"].txtWithIcon:focus+i.error,
+.inputWithIcon input[type="password"].txtWithIcon:focus+i.error {
     color: #E84545;
 }
 
@@ -545,7 +506,7 @@ input[type="text"].txtWithIcon.error {
     height: 48px;
     font-family: 'Axiforma Book';
     font-size: 14px;
-    color: #131336;
+    color: #9194A7;
     line-height: 18px;
     letter-spacing: 0.015em;
     padding: 12px 16px 12px 16px;
@@ -557,11 +518,20 @@ input[type="text"].txtWithIcon.error {
     -moz-appearance: none;
     appearance: none;
     cursor: pointer;
-    color: #9194A7;
 }
 
 .select-wrap select:focus {
     border: 1px solid #00B0CA;
+    color: #131336;
+}
+
+.select-wrap select:hover {
+    border-color: #E4E5ED;
+    color: #131336;
+}
+
+.select-wrap select:focus:hover {
+    border: 1px solid #E4E5ED;
     color: #131336;
 }
 
@@ -626,20 +596,21 @@ input[type="text"].txtWithIcon.error {
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 18px;
+    line-height: 16px;
     letter-spacing: 0.015em;
     color: #131336;
 }
 
 .custom_checkbox input[type="checkbox"]+label:before {
     background: #fff;
-    height: 21px;
+    height: 20px;
     border: 2px solid #E4E5ED;
+    border-radius: 2px;
     content: " ";
     display: inline-block;
-    width: 21px;
+    width: 20px;
     vertical-align: middle;
-    margin-right: 10px;
+    margin-right: 8px;
     position: relative;
     top: -1px;
 }
@@ -653,7 +624,7 @@ input[type="text"].txtWithIcon.error {
     font-weight: lighter;
     font-family: 'icomoon';
     text-align: center;
-    line-height: 21px;
+    line-height: 16px;
 }
 
 
@@ -710,4 +681,34 @@ input[type="text"].txtWithIcon.error {
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
     box-shadow: inset 0 0 0 0.2em white, inset 0 0 0 1em #4CAF50;
+}
+
+@media (max-width: 575px) {
+    .inputWithIcon>i {
+        margin-top: 3.5%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .inputWithIcon>i {
+        margin-top: 3.5%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .inputWithIcon>i {
+        margin-top: 4.5%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .inputWithIcon>i {
+        margin-top: 4.5%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .inputWithIcon>i {
+        margin-top: 4.5%;
+    }
 }
