@@ -39,9 +39,17 @@ body {
 
 .content_form {
     width: 360px;
-    height: auto;
+    height: 100%;
+    display: table;
     margin: 0px auto;
-    display: block;
+    /*  width: 100%;
+    display: block;*/
+}
+
+.row-middle {
+    vertical-align: middle;
+    height: 100%;
+    display: table-cell;
 }
 
 .form-group {
