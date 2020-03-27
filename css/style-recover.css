@@ -76,3 +76,7 @@
     letter-spacing: 0.015em;
     color: #131336;
 }
+
+::placeholder {
+    color: #9194A7;
+}
