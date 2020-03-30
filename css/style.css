@@ -115,7 +115,8 @@ body {
         display: none;
     }
     .logo {
-        width: 35%;
+        width: 45%;
+        margin-top: 0%;
     }
     .content_login .content_login_right {
         width: 100%;
@@ -133,7 +134,8 @@ body {
         display: none;
     }
     .logo {
-        width: 35%;
+        width: 45%;
+        margin-top: 0%;
     }
     .content_login .content_login_right {
         width: 100%;
