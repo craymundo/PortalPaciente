@@ -38,8 +38,8 @@ body {
 }
 
 .logo {
-    /* margin-top: 27%; */
-    margin-top: 35%;
+    /* margin-top: 27%; 
+    margin-top: 35%;*/
 }
 
 ::placeholder {
@@ -149,7 +149,6 @@ body {
     .content_login .content_login_left {
         display: none;
     }
-
     .content_login .content_login_right {
         width: 100%;
     }
@@ -162,7 +161,6 @@ body {
     .content_login .content_login_left {
         display: block;
     }
-
     .content_login .content_login_right {
         width: 50%;
         float: right;
@@ -176,7 +174,6 @@ body {
     .content_login .content_login_left {
         display: block;
     }
-
     .content_login .content_login_right {
         width: 50%;
         float: right;

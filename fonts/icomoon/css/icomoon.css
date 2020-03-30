@@ -47,6 +47,7 @@
 
 .icon-CloseEyes:before {
     content: "\e908";
+    font-size: 24px;
 }
 
 .icon-Compartir:before {
