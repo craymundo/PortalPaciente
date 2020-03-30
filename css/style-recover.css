@@ -82,15 +82,23 @@
     height: 100%;
     display: table;
     margin: 0px auto;
-    margin-top: -10%;
 }
 
 ::placeholder {
     color: #9194A7;
 }
 
+.subTitle1 {
+    color: #131336;
+    style: font-size: 24px;
+}
+
+.body2 {
+    color: #131336;
+}
+
 .logo {
-    margin-top: 52%;
+    margin-top: 35%;
 }
 
 @media (max-width: 575px) {
@@ -105,26 +113,18 @@
 
 @media (min-width: 576px) and (max-width: 767px) {
     .logo {
-        width: 50%;
         margin-top: 55%;
     }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
     .logo {
-        width: 50%;
         margin-top: 55%;
     }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    .logo {
-        width: 50%;
-    }
 }
 
 @media (min-width: 1200px) {
-    .logo {
-        width: 55%;
-    }
 }
