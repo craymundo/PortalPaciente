@@ -378,10 +378,12 @@ input[type="text"].txtWithoutIcon:hover {
     color: #131336;
 }
 
+
+/*
 input[type="text"].txtWithoutIcon:focus:hover {
     border: 1px solid #E4E5ED;
     color: #131336;
-}
+}*/
 
 
 /***********FIN:Input Simple***********/
@@ -441,11 +443,12 @@ input[type="password"].txtWithIcon:hover {
     color: #131336;
 }
 
-input[type="text"].txtWithoutIcon:focus:hover,
+
+/* input[type="text"].txtWithoutIcon:focus:hover,
 input[type="password"].txtWithoutIcon:focus:hover {
     border: 1px solid #E4E5ED;
     color: #131336;
-}
+} */
 
 .inputWithIcon input[type="text"].txtWithIcon:focus+i,
 .inputWithIcon input[type="password"].txtWithIcon:focus+i {
