@@ -51,8 +51,6 @@ body {
     height: 100%;
     display: table;
     margin: 0px auto;
-    /*  width: 100%;
-    display: block;*/
 }
 
 .subTitle5 {
@@ -149,9 +147,7 @@ body {
     .content_login .content_login_left {
         display: none;
     }
-    .logo {
-        width: 50%;
-    }
+
     .content_login .content_login_right {
         width: 100%;
     }
@@ -164,9 +160,7 @@ body {
     .content_login .content_login_left {
         display: block;
     }
-    .logo {
-        width: 50%;
-    }
+
     .content_login .content_login_right {
         width: 50%;
         float: right;
@@ -180,9 +174,7 @@ body {
     .content_login .content_login_left {
         display: block;
     }
-    .logo {
-        width: 55%;
-    }
+
     .content_login .content_login_right {
         width: 50%;
         float: right;
