@@ -88,12 +88,24 @@
     color: #9194A7;
 }
 
-.subTitle1 {
+.body_2 {
     color: #131336;
+    font-family: 'Axiforma Light';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.015em;
 }
 
-.body2 {
+.subTitle_1 {
     color: #131336;
+    font-family: 'Axiforma Book';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 22px;
+    letter-spacing: 0px;
 }
 
 .logo {
@@ -102,28 +114,61 @@
 
 @media (max-width: 575px) {
     .content_form{
-        width: 90%;
+        width: 100%;
     }
 
     .logo{
-        margin-top: 45%;
+        margin-top: 0%;
     }
+
+    .subTitle_1 {
+        font-size: 14px;
+    }
+
+    .body_2{
+        font-size: 14px;
+    }
+
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-    .logo {
-        margin-top: 55%;
+
+    .content_form{
+        width: 100%;
     }
+
+    .subTitle_1 {
+        font-size: 14px;
+    }
+    .body_2{
+        font-size: 13px;
+    }
+
+    .logo{
+        margin-top: 0%;
+    }
+
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .logo {
-        margin-top: 55%;
+
+    .content_form{
+        width: 100%;
+    }
+
+    .body_2{
+        font-size: 14px;
+    }
+
+    .logo{
+        margin-top: 0%;
     }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+
 }
 
 @media (min-width: 1200px) {
+
 }

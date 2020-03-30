@@ -88,7 +88,28 @@
 }
 
 .logotype {
+    width: 70%;
     margin-top: 0;
+}
+
+.body_2 {
+    color: #131336;
+    font-family: 'Axiforma Light';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.015em;
+}
+
+.subTitle_1 {
+    color: #131336;
+    font-family: 'Axiforma Book';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 22px;
+    letter-spacing: 0px;
 }
 
 @media (max-width: 575px) {
@@ -114,7 +135,7 @@
     }
 
     .logotype{
-        width: 52%;
+        width: 32%;
         margin-top: 30px;
     }
 
@@ -146,7 +167,7 @@
     }
 
     .logotype{
-        width: 52%;
+        width: 32%;
         margin-top: 30px;
     }
 
@@ -178,7 +199,7 @@
     }
 
     .logotype{
-        width: 52%;
+        width: 32%;
         margin-top: 30px;
     }
 
