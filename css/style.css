@@ -42,6 +42,10 @@ body {
     margin-top: 35%;
 }
 
+::placeholder {
+    color: #9194A7;
+}
+
 .content_form {
     width: 360px;
     height: 100%;
