@@ -48,109 +48,88 @@
 .icon-CloseEyes:before {
     content: "\e908";
     font-size: 24px;
+    width: 24px;
+    height: 24px;
 }
 
+
+}
 .icon-Compartir:before {
     content: "\e909";
 }
-
 .icon-Cruz:before {
     content: "\e90a";
 }
-
 .icon-Doctor:before {
     content: "\e90b";
 }
-
 .icon-Equis:before {
     content: "\e90c";
 }
-
 .icon-Error:before {
     content: "\e90d";
 }
-
 .icon-Estrella:before {
     content: "\e90e";
 }
-
 .icon-Estrella-Filled:before {
     content: "\e90f";
 }
-
 .icon-Exit:before {
     content: "\e910";
 }
-
 .icon-Flecha-Down:before {
     content: "\e911";
 }
-
 .icon-Flecha-Up:before {
     content: "\e912";
 }
-
 .icon-Gps:before {
     content: "\e913";
 }
-
 .icon-Help:before {
     content: "\e914";
 }
-
 .icon-Informacin:before {
     content: "\e915";
 }
-
 .icon-Laboratorio:before {
     content: "\e916";
 }
-
 .icon-Lapiz:before {
     content: "\e917";
 }
-
 .icon-Launch:before {
     content: "\e918";
 }
-
 .icon-Menu:before {
     content: "\e919";
 }
-
 .icon-OpenEyes:before {
     content: "\e91a";
     font-size: 24px;
 }
-
 .icon-Pastillas:before {
     content: "\e91b";
 }
-
 .icon-Persona:before {
     content: "\e91c";
 }
-
 .icon-Resumen:before {
     content: "\e91d";
 }
-
 .icon-Siguiente:before {
     content: "\e91e";
 }
-
 .icon-Tarjeta:before {
     content: "\e91f";
 }
-
 .icon-Telfono:before {
     content: "\e920";
 }
-
 .icon-Vector:before {
     content: "\e921";
 }
-
 .icon-Video:before {
     content: "\e922";
 }

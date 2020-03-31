@@ -2,9 +2,13 @@
     font-family: 'Axiforma Book';
     font-style: normal;
     font-weight: normal;
-    font-size: 50px;
+    font-size: 3.125rem;
     line-height: 60px;
     letter-spacing: 0px;
+}
+
+.mt-72 {
+    margin-top: 72px;
 }
 
 .div-parrafo-login-1 {
