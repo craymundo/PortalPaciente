@@ -78,6 +78,14 @@
     background-color: #E84545;
 }
 
+.color-error-auna-red {
+    color: #E84545!important;
+}
+
+.d-hidden {
+    display: none;
+}
+
 a {
     color: #00B0CA!important;
     letter-spacing: 0.015em;
@@ -228,7 +236,7 @@ h6 {
 /*************BUTTONS***********/
 
 .btn-md {
-    margin: 24px 0px 24px 0px;
+    margin: 24px 0px 0px 0px;
     padding: 14px 20px 14px 20px;
     border-radius: 40px;
     font-family: 'Axiforma Medium';
@@ -255,6 +263,19 @@ h6 {
     outline: none;
 }
 
+
+/* button:disabled,
+button[disabled]{ */
+
+.btn-md:disabled,
+button.btn-md[disabled] {
+    color: #B8BCD5;
+    background: #F1F2F7;
+    border: 1px solid #F1F2F7;
+    border: 0px;
+    outline: none;
+}
+
 input[type="button"].btn-md:disabled {
     color: #B8BCD5;
     background: #F1F2F7;
@@ -264,7 +285,7 @@ input[type="button"].btn-md:disabled {
 }
 
 .btn-md-outline {
-    margin: 24px 0px 24px 0px;
+    margin: 24px 0px 0px 0px;
     padding: 14px 20px 14px 20px;
     border-radius: 40px;
     font-family: 'Axiforma Medium';
@@ -290,7 +311,7 @@ input[type="button"].btn-md:disabled {
 }
 
 .btn-sm {
-    margin: 24px 0px 24px 0px;
+    margin: 24px 0px 0px 0px;
     padding: 6px 16px 6px 16px;
     border-radius: 40px;
     font-size: 14px;
@@ -320,7 +341,7 @@ input[type="button"].btn-sm:disabled {
 }
 
 .btn-sm-outline {
-    margin: 24px 0px 24px 0px;
+    margin: 24px 0px 0px 0px;
     padding: 6px 16px 6px 16px;
     border-radius: 40px;
     font-size: 14px;
@@ -370,6 +391,7 @@ input[type="text"].txtWithoutIcon {
 }
 
 input[type="text"].txtWithoutIcon:hover {
+    border: 1px solid #E4E5ED;
     color: #131336;
 }
 
@@ -455,6 +477,17 @@ input[type="password"].txtWithIcon:focus {
     color: #131336;
 }
 
+.input_focus {
+    border-color: #00B0CA!important;
+    color: #131336!important;
+}
+
+input[type="text"].txtWithIcon:hover,
+input[type="password"].txtWithIcon:hover {
+    border: 1px solid #E4E5ED;
+    color: #131336;
+}
+
 input:focus::-webkit-input-placeholder {
     color: white;
 }
@@ -470,17 +503,17 @@ input[type="password"].txtWithoutIcon:focus:hover {
     color: #131336;
 } */
 
-.inputWithIcon input[type="text"].txtWithIcon:focus+i,
-.inputWithIcon input[type="password"].txtWithIcon:focus+i {
+.inputWithIcon input[type="text"].txtWithIcon:focus+div+i,
+.inputWithIcon input[type="password"].txtWithIcon:focus+div+i {
     color: #00B0CA;
 }
 
-.inputWithIcon input[type="text"].txtWithIcon:hover+i,
-.inputWithIcon input[type="password"].txtWithIcon:hover+i {
+.inputWithIcon input[type="text"].txtWithIcon:hover+div+i,
+.inputWithIcon input[type="password"].txtWithIcon:hover+div+i {
     color: #00B0CA;
 }
 
-.inputWithIcon>i {
+.inputWithIcon>div>i {
     position: absolute;
     /* right: 26px; */
     padding: 9px 8px;
@@ -518,7 +551,6 @@ input[type="password"].txtWithIcon.error {
 .holder {
     margin: 0 auto;
     width: 100%;
-    margin: 8px 0px;
 }
 
 .select-wrap {
@@ -715,8 +747,8 @@ input[type="password"].txtWithIcon.error {
         right: 6px;
     }
     .content_form {
-        padding-right: 16px;
-        padding-left: 16px;
+        padding-right: 8px;
+        padding-left: 8px;
     }
     .col-lg-12 {
         padding-right: 0px;
@@ -738,6 +770,29 @@ input[type="password"].txtWithIcon.error {
         padding-left: 0px;
         margin-top: 24px;
     }
+}
+
+::placeholder {
+    color: #9194A7;
+}
+
+.form-group {
+    margin-bottom: 24px!important;
+}
+
+.error-msg {
+    font-family: 'Axiforma Light';
+    font-style: normal;
+    font-weight: 350;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.015em;
+    color: #E84545;
+    padding-left: 5%;
+}
+
+.form-group-6 {
+    margin-bottom: 6px !important;
 }
 
 @media (min-width: 576px) and (max-width: 767px) {}

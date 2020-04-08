@@ -1,0 +1,209 @@
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.div-registro-1 {
+    width: 45%;
+    display: block;
+    float: left;
+    margin-right: 32px;
+}
+
+.div-registro-2 {
+    width: 45%;
+    display: block;
+    float: left;
+}
+
+.timeline {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    max-width: 500px;
+    margin: 88px auto 0px auto;
+    counter-reset: step;
+}
+
+.timeline li {
+    float: left;
+    text-align: center;
+    width: 90px;
+    position: relative;
+}
+
+.timeline li:before {
+    content: counter(step);
+    counter-increment: step;
+    line-height: 32px;
+    width: 40px;
+    height: 40px;
+    display: block;
+    border-radius: 100%;
+    border: 2px solid #B8BCD5;
+    margin: 0 auto 40px auto;
+    background: #fff;
+    /**/
+    font-family: 'Axiforma Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.timeline li:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #B8BCD5;
+    display: block;
+    position: absolute;
+    top: 17.5px;
+    left: 50%;
+    z-index: -1;
+}
+
+.timeline li:last-child:after {
+    content: none;
+}
+
+.timeline li.active {
+    color: #C2DF0A;
+}
+
+.timeline li:first-child:before {
+    border-color: #C2DF0A;
+}
+
+.timeline li:first-child:after {
+    background: #B8BCD5;
+}
+
+.subTitulo-Registro {
+    font-family: 'Axiforma Book';
+    font-weight: 375;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.subTitulo-Registro-1 {
+    font-family: 'Axiforma Book';
+    font-weight: 375;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.015em;
+    color: #131336;
+    margin-top: 34px;
+    margin-bottom: 24px;
+}
+
+#paso_2 {
+    display: none;
+}
+
+#terminos_y_condiciones {
+    display: none;
+}
+
+#mensaje_sucess {
+    display: none;
+}
+
+#terminos_y_condiciones>p {
+    margin-top: 16px;
+}
+
+.mt-titulo-terminos {
+    margin-top: 88px;
+}
+
+#terminos_y_condiciones>p:nth-child(1) {
+    margin-top: 26px;
+}
+
+.contenedor_form_registro_w1 {
+    width: 360px!important;
+}
+
+.contenedor_form_registro_w2 {
+    width: 504px!important;
+}
+
+.d-none {
+    display: none !important;
+}
+
+@media (max-width: 320px) {
+    .col-lg-12 {
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-top: 0px!important;
+    }
+    .subTitulo-Registro {
+        font-weight: 375;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .subTitulo-Registro-1 {
+        font-style: normal;
+        font-weight: 375;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0.015em;
+        margin-top: 36px;
+        margin-bottom: 27px;
+    }
+    .div-registro-1 {
+        width: 50%;
+        margin-right: 16px;
+    }
+    .timeline {
+        margin-top: 0px;
+    }
+    .timeline li:before {
+        margin-bottom: 25px;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 360px) {
+    .timeline li:before {
+        margin-bottom: 25px;
+    }
+    .col-lg-12 {
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-top: 0px!important;
+    }
+    .subTitulo-Registro {
+        font-weight: 375;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .subTitulo-Registro-1 {
+        font-style: normal;
+        font-weight: 375;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0.015em;
+        margin-top: 36px;
+        margin-bottom: 27px;
+    }
+    .div-registro-1 {
+        width: 50%;
+        margin-right: 16px;
+    }
+    .timeline {
+        margin-top: 0px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {}
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media (min-width: 1200px) {}
