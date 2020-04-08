@@ -29,7 +29,6 @@ body {
 
 .content_login .content_login_right {
     display: block;
-    float: right;
     width: 50%;
     position: relative;
     top: 0;
@@ -44,6 +43,7 @@ body {
 ::placeholder {
     color: #9194A7;
 }
+
 
 .width-84 {
     width: 84%!important;
