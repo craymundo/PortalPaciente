@@ -8086,6 +8086,8 @@ button.bg-dark:focus {
 
 .vh-100 {
   height: 100vh !important;
+  background-color: #FFFFFF;
+  border-radius: 10px
 }
 
 .stretched-link::after {
