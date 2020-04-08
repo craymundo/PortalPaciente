@@ -166,13 +166,25 @@ a {
     padding-bottom: 74px;
 }
 
-.mt-lnk-volver {
-    margin-top: 107px;
+.space-beetween {
+    margin-top: 24px;
     color: #131336;
 }
 
+.subTitle_5 {
+    font-family: 'Axiforma Book';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 16px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.015em;
+    color: #9194A7;
+}
+
 .btn-recover-password {
-    width: 27%;
+    width: 30%;
     /*margin-top: 64px!important;*/
 }
 
@@ -221,14 +233,8 @@ input[type="button"].btn-cnfm:disabled {
     margin-top: 32px;
 }
 
-.mt-lnk-volver-success {
-    margin-top: 87px;
-}
 
 @media (max-width: 320px) {
-    .mt-lnk-volver-success {
-        margin-top: 51px;
-    }
     .logo-auna-success-pb {
         padding-bottom: 52px;
     }
@@ -255,7 +261,7 @@ input[type="button"].btn-cnfm:disabled {
         width: 100%;
         margin-top: 64px!important;
     }
-    .mt-lnk-volver {
+    .space-beetween {
         margin-top: 27px;
     }
     .logo-auna-sea-pb {
@@ -294,9 +300,6 @@ input[type="button"].btn-cnfm:disabled {
 }
 
 @media (min-width: 321px) and (max-width: 360px) {
-    .mt-lnk-volver-success {
-        margin-top: 51px;
-    }
     .logo-auna-success-pb {
         padding-bottom: 52px;
     }
@@ -323,7 +326,7 @@ input[type="button"].btn-cnfm:disabled {
         width: 100%;
         margin-top: 64px!important;
     }
-    .mt-lnk-volver {
+    .space-beetween {
         margin-top: 27px;
     }
     .logo-auna-sea-pb {
