@@ -391,7 +391,10 @@ input[type="text"].txtWithoutIcon {
 }
 
 input[type="text"].txtWithoutIcon:hover {
+<<<<<<< HEAD
     border: 1px solid #E4E5ED;
+=======
+>>>>>>> 52bbf5d64e99cf750fb73066e40b85e1e0837838
     color: #131336;
 }
 
@@ -465,12 +468,19 @@ input[type="password"].txtWithIcon {
     height: 48px;
 }
 
+input[type="text"].txtWithIcon:hover,
+input[type="password"].txtWithIcon:hover {
+    border-color: #00B0CA;
+    color: #131336;
+}
+
 input[type="text"].txtWithIcon:focus,
 input[type="password"].txtWithIcon:focus {
     border-color: #00B0CA;
     color: #131336;
 }
 
+<<<<<<< HEAD
 .input_focus {
     border-color: #00B0CA!important;
     color: #131336!important;
@@ -480,6 +490,14 @@ input[type="text"].txtWithIcon:hover,
 input[type="password"].txtWithIcon:hover {
     border: 1px solid #E4E5ED;
     color: #131336;
+=======
+input:focus::-webkit-input-placeholder {
+    color: white;
+}
+
+input:hover::-webkit-input-placeholder {
+    color: #9194A7;
+>>>>>>> 52bbf5d64e99cf750fb73066e40b85e1e0837838
 }
 
 input:focus::-webkit-input-placeholder {
