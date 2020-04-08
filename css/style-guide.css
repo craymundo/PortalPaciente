@@ -501,9 +501,9 @@ input[type="password"].txtWithIcon.error {
 /*************SELECT***********/
 
 .holder {
-    margin: 0 auto;
+    margin: 0 auto 0 auto;
     width: 100%;
-    margin: 8px 0px;
+    /*margin: 0px 0px;*/
 }
 
 .select-wrap {
