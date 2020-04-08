@@ -117,12 +117,14 @@
 
                                 <div class="inputWithIcon">
                                     <input type="text" class="txtWithIcon" placeholder="DD/MM/AAAA">
-                                    <i class="fa icon-Calendario fa-lg fa-fw" aria-hidden="true"></i>
+                                    <div>
+                                        <i class="fa icon-Calendario" aria-hidden="true"></i>
+                                    </div>
                                 </div>
                             </div>
 
+                            <input type="button" class="btn-md width-100" style="margin-bottom: 108px;" onclick="javascript:activar_paso('2');" value="Continuar" />
 
-                            <button type="submit " class="btn-md width-100">Continuar</button>
                         </form>
                     </div>
 
@@ -160,11 +162,14 @@
 
                             <div class="form-group ">
                                 <div class="div-registro-1">
-                                    <button type="submit " class="btn-md-outline width-100">Atrás</button>
+
+
+                                    <input type="button" class="btn-md-outline width-100" style="margin-bottom: 94px;" value="Atrás" onclick="activar_paso('1');" />
                                 </div>
 
                                 <div class="div-registro-2">
-                                    <button type="submit " class="btn-md width-100">Continuar</button>
+                                    <input type="button" class="btn-md width-100" style="margin-bottom: 94px;" value="Continuar" onclick="activar_paso('6');" />
+
                                 </div>
                             </div>
                         </form>
@@ -214,11 +219,13 @@
                         </div>
 
                         <div class=" col-lg-12 text-center pr-0 pl-0" style="padding-bottom: 46px;">
-                            <a>Cancelar</a>
+                            <a href="#" onclick="activar_paso('5');">Cancelar</a>
                         </div>
                     </div>
 
-
+                    <div class=" col-lg-12  pr-0 pl-0" id="mensaje_sucess">
+                        <h1>MENSAJE CORRECTO</h1>
+                    </div>
                 </div>
             </div>
 

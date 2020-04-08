@@ -108,6 +108,10 @@ p {
     display: none;
 }
 
+#mensaje_sucess {
+    display: none;
+}
+
 #terminos_y_condiciones>p {
     margin-top: 16px;
 }
@@ -118,6 +122,18 @@ p {
 
 #terminos_y_condiciones>p:nth-child(1) {
     margin-top: 26px;
+}
+
+.contenedor_form_registro_w1 {
+    width: 360px!important;
+}
+
+.contenedor_form_registro_w2 {
+    width: 504px!important;
+}
+
+.d-none {
+    display: none !important;
 }
 
 @media (max-width: 320px) {
