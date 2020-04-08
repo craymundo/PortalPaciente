@@ -77,7 +77,9 @@ function activar_paso(id) {
     } else if (id == '6') {
         $('#paso_2').fadeOut(500, function() {
             $('#mensaje_sucess').fadeIn();
-
+            $("#lblSubTitulo").parent().hide();
+            $(".timeline.text-center").parent().addClass("d-none");
+            $("#lblSubTituloPrincipal").parent().addClass("d-none");
         });
     }
 }
