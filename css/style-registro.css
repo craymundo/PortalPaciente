@@ -136,6 +136,10 @@ p {
     display: none !important;
 }
 
+#mensaje_sucess .logo-auna-success-pb {
+    padding-bottom: 42px;
+}
+
 @media (max-width: 320px) {
     .col-lg-12 {
         padding-right: 0px;
