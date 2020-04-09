@@ -207,7 +207,7 @@ a {
     letter-spacing: 0.015em;
     color: #00B0CA;
     margin-top: 20px;
-    cursor: pointer;
+    /*cursor: pointer;*/
 }
 
 .image-icon-right{
