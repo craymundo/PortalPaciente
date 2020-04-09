@@ -40,7 +40,6 @@ p {
     line-height: 18px;
     letter-spacing: 0.015em;
     width: 345px;
-    height: 36px;
 }
 
 .subTitle_18 {
@@ -101,6 +100,20 @@ p {
     letter-spacing: 0.015em;
     color: #00B0CA;
     margin-top: 16px;
+}
+
+.subTitle_14_2 {
+    font-family: 'Axiforma Light';
+    font-style: normal;
+    font-weight: 350;
+    font-size: 12px;
+    line-height: 18px;
+    /* or 150% */
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.015em;
+    /* Auna-Dark */
+    color: #131336;
 }
 
 .btn-recover-password {
@@ -164,6 +177,10 @@ input[type="button"].btn-cnfm:disabled {
     font-family: 'Axiforma Light';
     margin-top: 8px;
     padding-bottom: 16px;
+}
+
+.font-Book {
+    font-family: 'Axiforma Book';
 }
 
 hr {
