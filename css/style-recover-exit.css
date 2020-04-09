@@ -8,7 +8,6 @@ p {
 
 .content_template_email {
     width: 500px;
-    height: 728px;
     margin: 0 auto;
 }
 
@@ -101,7 +100,7 @@ p {
     align-items: center;
     letter-spacing: 0.015em;
     color: #00B0CA;
-    margin-top: 20px;
+    margin-top: 16px;
 }
 
 .btn-recover-password {
@@ -164,6 +163,16 @@ input[type="button"].btn-cnfm:disabled {
 .font-ligth {
     font-family: 'Axiforma Light';
     margin-top: 8px;
+    padding-bottom: 16px;
+}
+
+hr {
+    /*   border: 1px solid #E4E5ED; */
+    width: 100%;
+    background-color: #E4E5ED;
+    height: 1px;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
 }
 
 @media (max-width: 320px) {
