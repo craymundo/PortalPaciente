@@ -13,8 +13,8 @@ function activar_paso(id) {
             $("#lblSubTituloPrincipal").text("Registrar mis datos");
 
             $(".timeline.text-center").parent().removeClass("d-none");
-            $("body > div > div.content_login_right > div").removeClass("contenedor_form_registro_w2");
-            $("body > div > div.content_login_right > div").addClass("contenedor_form_registro_w1");
+            $("#form_registro").removeClass("contenedor_form_registro_w2");
+            $("#form_registro").addClass("contenedor_form_registro_w1");
         });
     } else if (id == '2') {
 
@@ -26,8 +26,8 @@ function activar_paso(id) {
             $("#lblSubTituloPrincipal").text("Registrar mis datos");
 
             $(".timeline.text-center").parent().removeClass("d-none");
-            $("body > div > div.content_login_right > div").removeClass("contenedor_form_registro_w2");
-            $("body > div > div.content_login_right > div").addClass("contenedor_form_registro_w1");
+            $("#form_registro").removeClass("contenedor_form_registro_w2");
+            $("#form_registro").addClass("contenedor_form_registro_w1");
         });
     } else if (id == '3') {
 
@@ -39,8 +39,8 @@ function activar_paso(id) {
 
             $("#lblSubTituloPrincipal").addClass("mt-titulo-terminos");
             $(".timeline.text-center").parent().addClass("d-none");
-            $("body > div > div.content_login_right > div").removeClass("contenedor_form_registro_w1");
-            $("body > div > div.content_login_right > div").addClass("contenedor_form_registro_w2");
+            $("#form_registro").removeClass("contenedor_form_registro_w1");
+            $("#form_registro").addClass("contenedor_form_registro_w2");
         });
     } else if (id == '4') {
 
@@ -54,8 +54,8 @@ function activar_paso(id) {
 
             $(".timeline.text-center").parent().removeClass("d-none");
             $("#lblSubTituloPrincipal").removeClass("mt-titulo-terminos");
-            $("body > div > div.content_login_right > div").removeClass("contenedor_form_registro_w2");
-            $("body > div > div.content_login_right > div").addClass("contenedor_form_registro_w1");
+            $("#form_registro").removeClass("contenedor_form_registro_w2");
+            $("#form_registro").addClass("contenedor_form_registro_w1");
         });
 
     } else if (id == '5') {
@@ -70,12 +70,12 @@ function activar_paso(id) {
 
             $(".timeline.text-center").parent().removeClass("d-none");
             $("#lblSubTituloPrincipal").removeClass("mt-titulo-terminos");
-            $("body > div > div.content_login_right > div").removeClass("contenedor_form_registro_w2");
-            $("body > div > div.content_login_right > div").addClass("contenedor_form_registro_w1");
+            $("#form_registro").removeClass("contenedor_form_registro_w2");
+            $("#form_registro").addClass("contenedor_form_registro_w1");
         });
 
     } else if (id == '6') {
-        $('#paso_2').fadeOut(500, function() {
+        $('#form_registro').fadeOut(500, function() {
             $('#mensaje_sucess').fadeIn();
             $("#lblSubTitulo").parent().hide();
             $(".timeline.text-center").parent().addClass("d-none");

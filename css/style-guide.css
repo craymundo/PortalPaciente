@@ -795,6 +795,10 @@ input[type="password"].txtWithIcon.error {
     margin-bottom: 6px !important;
 }
 
+.vh-100 {
+    background-color: transparent!important;
+}
+
 @media (min-width: 576px) and (max-width: 767px) {}
 
 @media (min-width: 768px) and (max-width: 991px) {}
