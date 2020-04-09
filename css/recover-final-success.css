@@ -134,7 +134,7 @@
     height: 224px;
 }
 
-.subTitle_1 {
+.subTitles_1 {
     color: #131336;
     font-family: 'Axiforma Book';
     font-style: normal;
@@ -244,7 +244,7 @@ a {
     .div-subtitulo-login-1 {
         padding-bottom: 24px;
     }
-    .subTitle_1 {
+    .subTitles_1 {
         font-size: 18px;
         line-height: 22px;
         padding-bottom: 24px;
@@ -296,7 +296,7 @@ a {
     .content_form_success {
         width: 100%;
     }
-    .subTitle_1 {
+    .subTitles_1 {
         font-size: 18px;
         line-height: 22px;
         padding-bottom: 24px;
@@ -316,8 +316,8 @@ a {
     .logo {
         margin-top: 0%;
     }
-    .subTitle_1 {
-        font-size: 14px;
+    .subTitles_1 {
+        font-size: 18px;
     }
     .body_2 {
         font-size: 14px;
@@ -331,8 +331,8 @@ a {
     .content_form_success {
         width: 470px;
     }
-    .subTitle_1 {
-        font-size: 14px;
+    .subTitles_1 {
+        font-size: 18px;
     }
     .body_2 {
         font-size: 13px;
