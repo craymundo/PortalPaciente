@@ -140,7 +140,85 @@ p {
     padding-bottom: 42px;
 }
 
+#mensaje_sucess .content_form_success {
+    width: 360px;
+}
+
+#mensaje_sucess .mt-img-success {
+    margin-top: 6px;
+}
+
+#mensaje_sucess .subTitle_1 {
+    font-family: 'Axiforma Book';
+    font-style: normal;
+    font-weight: 375;
+    font-size: 24px;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+#mensaje_sucess>div>div>div.col-lg-12.text-center.pr-0.pl-0.mt-img-success>form>div>div:nth-child(2) {
+    margin-bottom: 6px;
+}
+
+#mensaje_sucess .mt-lnk-volver-success {
+    margin-top: 101px;
+}
+
+#btnContinuarPaso2 {
+    margin-bottom: 108px;
+}
+
+#btnAtras {
+    margin-bottom: 94px;
+    display: block;
+    float: left;
+    width: 148px;
+}
+
+#btnGuardar {
+    margin-bottom: 94px;
+    display: block;
+    float: right;
+    width: 148px;
+}
+
+#terminos_y_condiciones .subTitle5 {
+    margin-top: 24px;
+}
+
+#btnTyC-aceptar {
+    width: 328px;
+    margin-top: 41px
+}
+
+#btnTyC-cancelar {
+    padding-top: 24px;
+    padding-bottom: 46px;
+}
+
 @media (max-width: 320px) {
+    #mensaje_sucess .row-middle {
+        padding-top: 72px;
+    }
+    #mensaje_sucess .logo-auna-success-pb {
+        padding-bottom: 52px;
+    }
+    #mensaje_sucess .content_form_success {
+        width: 100%;
+    }
+    #mensaje_sucess .mt-img-success {
+        margin-top: 16px;
+    }
+    #mensaje_sucess .subTitle_1 {
+        font-size: 18px;
+        line-height: 22px;
+        padding-bottom: 16px;
+    }
+    #mensaje_sucess .mt-lnk-volver-success {
+        margin-top: 67px;
+        margin-bottom: 67px;
+    }
     .col-lg-12 {
         padding-right: 0px;
         padding-left: 0px;
@@ -169,10 +247,70 @@ p {
     }
     .timeline li:before {
         margin-bottom: 25px;
+    }
+    .contenedor_form_registro_w1 {
+        width: 100%!important;
+    }
+    .contenedor_form_registro_w2 {
+        width: 100%!important;
+    }
+    #btnContinuarPaso2 {
+        margin-bottom: 40px;
+    }
+    #btnAtras {
+        margin-bottom: 62px;
+        display: block;
+        float: left;
+        width: 148px;
+    }
+    #btnGuardar {
+        margin-bottom: 62px;
+        display: block;
+        float: right;
+        width: 148px;
+    }
+    .mt-titulo-terminos {
+        margin-top: 0px;
+    }
+    #terminos_y_condiciones>p:nth-child(1) {
+        margin-top: 16px;
+    }
+    #terminos_y_condiciones>p {
+        margin-top: 8px;
+    }
+    #terminos_y_condiciones .subTitle5 {
+        margin-top: 16px;
+    }
+    #btnTyC-aceptar {
+        width: 100%;
+        margin-top: 24px
+    }
+    #btnTyC-cancelar {
+        padding-bottom: 40px;
     }
 }
 
 @media (min-width: 321px) and (max-width: 360px) {
+    #mensaje_sucess .row-middle {
+        padding-top: 72px;
+    }
+    #mensaje_sucess .content_form_success {
+        width: 100%;
+    }
+    #mensaje_sucess .logo-auna-success-pb {
+        padding-bottom: 52px;
+    }
+    #mensaje_sucess .mt-img-success {
+        margin-top: 16px;
+    }
+    #mensaje_sucess .subTitle_1 {
+        font-size: 18px;
+        line-height: 22px;
+        padding-bottom: 16px;
+    }
+    #mensaje_sucess .mt-lnk-volver-success {
+        margin-top: 67px;
+    }
     .timeline li:before {
         margin-bottom: 25px;
     }
@@ -201,6 +339,46 @@ p {
     }
     .timeline {
         margin-top: 0px;
+    }
+    .contenedor_form_registro_w1 {
+        width: 100%!important;
+    }
+    .contenedor_form_registro_w2 {
+        width: 100%!important;
+    }
+    #btnContinuarPaso2 {
+        margin-bottom: 40px;
+    }
+    #btnAtras {
+        margin-bottom: 62px;
+        display: block;
+        float: left;
+        width: 148px;
+    }
+    #btnGuardar {
+        margin-bottom: 62px;
+        display: block;
+        float: right;
+        width: 148px;
+    }
+    .mt-titulo-terminos {
+        margin-top: 0px;
+    }
+    #terminos_y_condiciones>p:nth-child(1) {
+        margin-top: 16px;
+    }
+    #terminos_y_condiciones>p {
+        margin-top: 8px;
+    }
+    #terminos_y_condiciones .subTitle5 {
+        margin-top: 16px;
+    }
+    #btnTyC-aceptar {
+        width: 100%;
+        margin-top: 24px
+    }
+    #btnTyC-cancelar {
+        padding-bottom: 40px;
     }
 }
 

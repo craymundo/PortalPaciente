@@ -122,7 +122,7 @@
                                 </div>
                             </div>
 
-                            <input type="button" class="btn-md width-100" style="margin-bottom: 108px;" onclick="javascript:activar_paso('2');" value="Continuar" />
+                            <input type="button" class="btn-md width-100" id="btnContinuarPaso2" onclick="javascript:activar_paso('2');" value="Continuar" />
 
                         </form>
                     </div>
@@ -142,13 +142,13 @@
 
                             <div class="form-group ">
                                 <label for="txtNombres" class="lbl-input-control">Crea una contraseña</label>
-                                <input type="text" class="txtWithoutIcon " placeholder="Ingresa tu contraseña">
+                                <input type="password" class="txtWithoutIcon " placeholder="Ingresa tu contraseña">
                             </div>
 
 
                             <div class="form-group ">
                                 <label for="txtNombres" class="lbl-input-control">Confirma tu contraseña</label>
-                                <input type="text" class="txtWithoutIcon " placeholder="Ingresa tu contraseña">
+                                <input type="password" class="txtWithoutIcon " placeholder="Ingresa tu contraseña">
                             </div>
 
                             <div class="form-group">
@@ -160,16 +160,15 @@
 
 
                             <div class="form-group ">
-                                <div class="div-registro-1">
 
 
-                                    <input type="button" class="btn-md-outline width-100" style="margin-bottom: 94px;" value="Atrás" onclick="activar_paso('1');" />
-                                </div>
 
-                                <div class="div-registro-2">
-                                    <input type="button" class="btn-md width-100" style="margin-bottom: 94px;" value="Continuar" onclick="activar_paso('6');" />
+                                <input type="button" id="btnAtras" class="btn-md-outline width-100" value="Atrás" onclick="activar_paso('1');" />
 
-                                </div>
+
+                                <input type="button" id="btnGuardar" class="btn-md width-100" value="Continuar" onclick="activar_paso('6');" />
+
+
                             </div>
                         </form>
                     </div>
@@ -189,7 +188,7 @@
                             Email marketing: Podremos enviarte correos electrónicos acerca de nuestro sitio web, nuevos productos y otras actualizaciones, si nos facilitas tus permisos.
                         </p>
 
-                        <p class="subTitle5" style="margin-top: 24px;">
+                        <p class="subTitle5">
                             ¿Cómo obtienen tu consentimiento?
                         </p>
 
@@ -204,20 +203,20 @@
                         </p>
 
 
-                        <p class="subTitle5" style="margin-top: 24px;">
+                        <p class="subTitle5">
                             ¿Cómo puedo anular mi consentimiento?
                         </p>
 
                         <p class="body2" style="margin-top: 0px;">
-                            Si luego de haber aceptado cambias de opinión, no te preocupes podrás anular tu consentimiento para que te contactemos, por la recolección, uso o divulgación de tu información, en cualquier momento, escribiéndonos a <a>aunadigital@gmail.com</a>                            o contactándonos en nuestras oficinas: Av. República de Panamá 4575, Surquillo.
+                            Si luego de haber aceptado cambias de opinión, no te preocupes podrás anular tu consentimiento para que te contactemos, por la recolección, uso o divulgación de tu información, en cualquier momento, escribiéndonos a <a>aunadigital@gmail.com</a>                            o contactándonos en nuestras oficinas: <b>Av. República de Panamá 4575, Surquillo.</b>
                         </p>
 
                         <div class=" col-lg-12 text-center pr-0 pl-0">
 
-                            <input type="button" class="btn-md " style="width: 328px;margin-top:41px" onclick="activar_paso('4');" value="Aceptar" />
+                            <input type="button" id="btnTyC-aceptar" class="btn-md " onclick="activar_paso('4');" value="Aceptar" />
                         </div>
 
-                        <div class=" col-lg-12 text-center pr-0 pl-0" style="padding-bottom: 46px;">
+                        <div class=" col-lg-12 text-center pr-0 pl-0" id="btnTyC-cancelar">
                             <a href="#" onclick="activar_paso('5');">Cancelar</a>
                         </div>
                     </div>
@@ -242,9 +241,9 @@
                         <div class="col-lg-12 text-center pr-0 pl-0 mt-img-success">
                             <form class="form_login ">
                                 <div class="form-group">
-                                    <p class="subTitle_1 text-center line-height">La ayuda está en camino</p>
-                                    <div class="body_2_success">Te enviaremos un correo a knap•••@•••.com con más instrucciones.</div>
-                                    <div class="body_2_success_subtitle">Si no recibiste el correo en en tu bandeja de entrada, revisa tu carpeta de Spam o
+                                    <p class="subTitle_1 text-center"> ¡Tu registro fue creado con éxito!</p>
+                                    <div class="body2">Te enviamos un correo de confirmación para que puedas activar tu nueva cuenta.</div>
+                                    <div class="body2 lbl-auna-grey-dark">Si no recibiste el correo en en tu bandeja de entrada, revisa tu carpeta de Spam o <br/>
                                         <a href="recover.html">envíalo nuevamente.</a></div>
                                 </div>
 
