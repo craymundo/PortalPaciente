@@ -176,6 +176,22 @@ a {
     margin-top: 40px!important;
 }
 
+.image-eye-icon{
+    position: absolute;
+    right: 17px;
+    top: 129px;
+    cursor: pointer;
+    display: flex;
+}
+
+.image-eye-icon_2{
+    position: absolute;
+    right: 17px;
+    top: 226px;
+    cursor: pointer;
+    display: flex;
+}
+
 .lbl-input-cntr {
     font-family: 'Axiforma Book';
     font-style: normal;
