@@ -3,6 +3,10 @@ $(document).ready(function() {
     $(".content_login_right").height(height);
 });
 
+function goPage(){
+    window.location.href='recover-final-success.html'
+}
+
 function activar_paso(id) {
     if (id == '1') {
         $('#paso_2').fadeOut(500, function() {
@@ -82,4 +86,5 @@ function activar_paso(id) {
             $("#lblSubTituloPrincipal").parent().addClass("d-none");
         });
     }
+
 }
