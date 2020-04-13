@@ -207,20 +207,19 @@ p {
 
 .div_close {
     position: absolute;
-    top: 29px;
-    right: 0px;
-}
-
-.div_close img {
-    padding-right: 45px;
+    top: 24px;
+    right: 40px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (max-width: 320px) {
     .div_close {
-        top: 21px;
-    }
-    .div_close img {
-        padding-right: 21px;
+        top: 16px;
+        right: 32px;
     }
     #mensaje_sucess .row-middle {
         padding-top: 72px;
@@ -319,10 +318,8 @@ p {
 
 @media (min-width: 321px) and (max-width: 360px) {
     .div_close {
-        top: 21px;
-    }
-    .div_close img {
-        padding-right: 21px;
+        top: 16px;
+        right: 32px;
     }
     #mensaje_sucess .row-middle {
         padding-top: 72px;
