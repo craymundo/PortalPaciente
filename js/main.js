@@ -1,10 +1,32 @@
 $(document).ready(function() {
     var height = $(window).height();
+    var innerHeight = window.innerHeight;
+    var clientHeight = document.body.clientHeight;
+
+    /*     alert('height:' + height + ' innerHeight:' + innerHeight + ' clientHeight:' + clientHeight);
+       ; */
+
     $(".content_login_right").height(height);
+
+    $("input[type='text']").keyup(function() {
+        var result = $(this).val();
+        // console.log(result);
+        if (result.trim().length > 0) {
+            $(this).addClass("lbl-auna-dark");
+        }
+    });
+    $("input[type='password']").keyup(function() {
+        var result = $(this).val();
+        // console.log(result);
+        if (result.trim().length > 0) {
+            $(this).addClass("lbl-auna-dark");
+        }
+    });
+
 });
 
-function goPage(){
-    window.location.href='recover-final-success.html'
+function goPage() {
+    window.location.href = 'recover-final-success.html'
 }
 
 function activar_paso(id) {

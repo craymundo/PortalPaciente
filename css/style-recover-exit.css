@@ -108,11 +108,9 @@ p {
     font-weight: 350;
     font-size: 12px;
     line-height: 18px;
-    /* or 150% */
     align-items: center;
     text-align: center;
     letter-spacing: 0.015em;
-    /* Auna-Dark */
     color: #131336;
 }
 
@@ -184,7 +182,6 @@ input[type="button"].btn-cnfm:disabled {
 }
 
 hr {
-    /*   border: 1px solid #E4E5ED; */
     width: 100%;
     background-color: #E4E5ED;
     height: 1px;
@@ -192,139 +189,11 @@ hr {
     margin-bottom: 0rem;
 }
 
-@media (max-width: 320px) {
-    .logo-auna-success-pb {
-        padding-bottom: 52px;
-    }
-    .body_2_success {
-        font-weight: 350;
-        font-size: 14px;
-        line-height: 21px;
-        padding-bottom: 16px;
-    }
-    .body_2_success_subtitle {
-        font-weight: 350;
-        font-size: 14px;
-        line-height: 21px;
-    }
-    .line-height {
-        line-height: 22px;
-        padding-bottom: 16px!important;
-    }
-    .img-success {
-        width: 148px;
-        height: 148px;
-    }
-    .btn-recover-aceptar {
-        width: 100%;
-        margin-top: 64px!important;
-    }
-    .space-beetween {
-        /*margin-top: 27px;*/
-    }
-    .logo-auna-sea-pb {
-        padding-top: 32px;
-        padding-bottom: 32px;
-    }
-    .container {
-        max-width: 100%;
-    }
-    .content_login .content_login_left {
-        display: none;
-    }
-    .logo {
-        width: 45%;
-        margin-top: 0%;
-    }
-    .content_login .content_login_right {
-        width: 100%;
-    }
-    .div-subtitulo-login-1 {
-        padding-bottom: 24px;
-    }
-    .subTitle_18 {
-        font-size: 18px;
-        line-height: 22px;
-        padding-bottom: 24px;
-    }
-    .subTitle_14 {
-        width: 220px;
-        padding-bottom: 30px;
-    }
-    .btn-recover-password {
-        width: 240px;
-    }
-    .subTitle_5 {
-        width: 220px;
-    }
-}
+@media (max-width: 320px) {}
 
-@media (min-width: 321px) and (max-width: 360px) {
-    .logo-auna-success-pb {
-        padding-bottom: 52px;
-    }
-    .body_2_success {
-        font-weight: 350;
-        font-size: 14px;
-        line-height: 21px;
-        padding-bottom: 16px;
-    }
-    .body_2_success_subtitle {
-        font-weight: 350;
-        font-size: 14px;
-        line-height: 21px;
-    }
-    .line-height {
-        line-height: 22px;
-        padding-bottom: 16px!important;
-    }
-    .img-success {
-        width: 148px;
-        height: 148px;
-    }
-    .btn-recover-aceptar {
-        width: 100%;
-        margin-top: 64px!important;
-    }
-    .space-beetween {
-        /*margin-top: 27px;*/
-    }
-    .logo-auna-sea-pb {
-        padding-top: 32px;
-        padding-bottom: 32px;
-    }
-    .subTitle_18 {
-        font-size: 18px;
-        line-height: 22px;
-        padding-bottom: 24px;
-    }
-    .subTitle_14 {
-        width: 220px;
-        padding-bottom: 30px;
-    }
-    .btn-recover-password {
-        width: 240px;
-    }
-    .subTitle_5 {
-        width: 220px;
-    }
-}
+@media (min-width: 321px) and (max-width: 360px) {}
 
-@media (min-width: 361px) and (max-width: 575px) {
-    .logo {
-        margin-top: 0%;
-    }
-    .subTitle_18 {
-        font-size: 14px;
-    }
-    .subTitle_14 {
-        font-size: 14px;
-        width: 220px;
-    }
-    .subTitle_5 {
-        width: 220px;
-    }
-}
+@media (min-width: 361px) and (max-width: 575px) {}
 
 @media (min-width: 576px) and (max-width: 767px) {}
 

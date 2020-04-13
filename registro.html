@@ -21,6 +21,11 @@
 </head>
 
 <body>
+
+    <div class="div_close">
+        <img src="img/close.svg" />
+    </div>
+
     <div class="content_login">
         <div class="content_login_left">
 
@@ -37,9 +42,11 @@
         </div>
         <div class="content_login_right" style="overflow-y: auto;">
             <div class="container content_form" id="form_registro">
-                <div class="row row-middle align-items-center justify-content-center vh-100">
+                <div class="align-items-center justify-content-center ">
 
-                    <div class="col-lg-12 text-center pr-0 pl-0 d-flex width-100">
+
+
+                    <div class="col-lg-12 text-center pr-0 pl-0 d-flex width-100 div_timeline">
                         <ul class='timeline text-center'>
                             <li class='active' onclick="activar_paso('1')"> </li>
                             <li onclick="activar_paso('2')"></li>
@@ -109,6 +116,8 @@
                                             </select>
                                     </div>
                                 </div>
+
+
                             </div>
 
                             <div class="form-group ">
@@ -122,7 +131,7 @@
                                 </div>
                             </div>
 
-                            <input type="button" class="btn-md width-100" id="btnContinuarPaso2" onclick="javascript:activar_paso('2');" value="Continuar" />
+                            <input type="button" class="btn-md width-100" disabled id="btnContinuarPaso2" onclick="javascript:activar_paso('2');" value="Continuar" />
 
                         </form>
                     </div>
@@ -142,13 +151,19 @@
 
                             <div class="form-group ">
                                 <label for="txtNombres" class="lbl-input-control">Crea una contraseña</label>
-                                <input type="password" class="txtWithoutIcon " placeholder="Ingresa tu contraseña">
+                                <div class="inputWithIcon">
+                                    <input type="password" class="txtWithIcon" placeholder="Ingresa tu contraseña">
+                                    <div><i class="fa icon-CloseEyes fa-lg fa-fw" aria-hidden="true"></i></div>
+                                </div>
                             </div>
 
 
                             <div class="form-group ">
                                 <label for="txtNombres" class="lbl-input-control">Confirma tu contraseña</label>
-                                <input type="password" class="txtWithoutIcon " placeholder="Ingresa tu contraseña">
+                                <div class="inputWithIcon">
+                                    <input type="password" class="txtWithIcon" placeholder="Ingresa tu contraseña">
+                                    <div><i class="fa icon-CloseEyes fa-lg fa-fw" aria-hidden="true"></i></div>
+                                </div>
                             </div>
 
                             <div class="form-group">
@@ -264,7 +279,7 @@
     </div>
 
 
-
+    <script src="js/popper.min.js"></script>
     <script src="js/jquery-3.4.1.js "></script>
     <script src="js/bootstrap.js "></script>
 

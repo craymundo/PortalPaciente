@@ -20,6 +20,10 @@ p {
     float: left;
 }
 
+.lbl-auna-dark {
+    color: #131336!important;
+}
+
 .timeline {
     margin: 0;
     padding: 0;
@@ -39,7 +43,7 @@ p {
 .timeline li:before {
     content: counter(step);
     counter-increment: step;
-    line-height: 32px;
+    line-height: 37px;
     width: 40px;
     height: 40px;
     display: block;
@@ -197,7 +201,27 @@ p {
     padding-bottom: 46px;
 }
 
+#form_registro ul.timeline.text-center>li:nth-child(2)::before {
+    content: '';
+}
+
+.div_close {
+    position: absolute;
+    top: 29px;
+    right: 0px;
+}
+
+.div_close img {
+    padding-right: 45px;
+}
+
 @media (max-width: 320px) {
+    .div_close {
+        top: 21px;
+    }
+    .div_close img {
+        padding-right: 21px;
+    }
     #mensaje_sucess .row-middle {
         padding-top: 72px;
     }
@@ -288,9 +312,18 @@ p {
     #btnTyC-cancelar {
         padding-bottom: 40px;
     }
+    .div_timeline {
+        margin-top: 56px!important;
+    }
 }
 
 @media (min-width: 321px) and (max-width: 360px) {
+    .div_close {
+        top: 21px;
+    }
+    .div_close img {
+        padding-right: 21px;
+    }
     #mensaje_sucess .row-middle {
         padding-top: 72px;
     }
@@ -379,6 +412,9 @@ p {
     }
     #btnTyC-cancelar {
         padding-bottom: 40px;
+    }
+    .div_timeline {
+        margin-top: 56px!important;
     }
 }
 
