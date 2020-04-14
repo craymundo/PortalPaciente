@@ -16,7 +16,84 @@
     <link rel="stylesheet" href="fonts/icomoon/css/icomoon.css">
     <link rel="stylesheet" href="css/style-recover.css">
     <style>
-
+        .dropdown-toggle::after {
+            font-family: 'icomoon'!important;
+            content: "\e911"!important;
+            border: 0px;
+            width: 24px;
+            height: 24px;
+            color: #00B0CA;
+            margin-left: 0em;
+            vertical-align: 0em;
+            text-align: right;
+            float: right;
+            font-size: 24px;
+        }
+        
+        .select-custom {
+            width: 100%;
+            height: 48px;
+            font-family: 'Axiforma Book';
+            font-size: 14px;
+            color: #9194A7;
+            line-height: 24px;
+            letter-spacing: 0.015em;
+            padding: 12px 16px 12px 16px;
+            border: 1px solid #E4E5ED;
+            background: #fff;
+            border-radius: 4px;
+            outline: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            cursor: pointer;
+            text-align: left;
+        }
+        
+        .select-custom:focus {
+            outline: none!important;
+            border: 1px solid #00B0CA!important;
+            color: #131336!important;
+        }
+        
+        .dropdown .select-custom+.dropdown-menu {
+            margin: 0px 0px!important;
+            background: #FFFFFF;
+            /* Auna-Grey-Medium */
+            border: 1px solid #E4E5ED;
+            box-sizing: border-box;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.06);
+            border-radius: 4px;
+            width: 100%;
+            padding: 0px 0px!important;
+        }
+        
+        .dropdown .select-custom+.dropdown-menu>.dropdown-item {
+            display: block;
+            width: 100%;
+            padding-top: 8px;
+            padding-left: 15px;
+            padding-bottom: 7px;
+            clear: both;
+            text-align: inherit;
+            white-space: nowrap;
+            background-color: transparent;
+            border: 0;
+            font-family: 'Axiforma Book';
+            font-style: normal;
+            font-weight: 375;
+            font-size: 14px;
+            line-height: 21px;
+            letter-spacing: 0.015em;
+            /* Auna-Grey-Dark */
+            color: #9194A7!important;
+            height: 42px;
+        }
+        
+        .dropdown .select-custom+.dropdown-menu>.dropdown-item:hover {
+            background: #E6F6F9;
+            color: #131336!important;
+        }
     </style>
 </head>
 
@@ -40,7 +117,7 @@
 
 
         </div>
-        <div class="content_login_right" style="overflow-y: auto;">
+        <div class="content_login_right" style="overflow-y: auto;-webkit-overflow-scrolling: touch;">
             <div class="container content_form" id="form_registro">
                 <div class="align-items-center justify-content-center ">
 
@@ -83,15 +160,18 @@
                                 <div class="div-registro-1">
                                     <label for="txtNombres" class="lbl-input-control">Tipo de Documento</label>
 
-                                    <div class="holder">
-                                        <div class="select-wrap">
-                                            <select class="">
-                                          <option>This is option 1</option>
-                                          <option>This is option 2</option>
-                                          <option>This is option 3</option>
-                                          <option>This is option 4</option>
-                                          <option>This is option 5</option>
-                                        </select>
+                                    <div class="dropdown">
+                                        <button class="select-custom dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                          Selecciona
+                                      
+                                        </button>
+
+
+
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                            <a class="dropdown-item" href="#">DNI</a>
+                                            <a class="dropdown-item" href="#">CE</a>
+                                            <a class="dropdown-item" href="#">Pasaporte</a>
                                         </div>
                                     </div>
 
@@ -105,15 +185,20 @@
 
                             <div class="form-group ">
                                 <label for="txtNombres" class="lbl-input-control">Género</label>
-                                <div class="holder">
-                                    <div class="select-wrap">
-                                        <select class="">
-                                            <option>This is option 1</option>
-                                            <option>This is option 2</option>
-                                            <option>This is option 3</option>
-                                            <option>This is option 4</option>
-                                            <option>This is option 5</option>
-                                            </select>
+
+
+                                <div class="dropdown">
+                                    <button class="select-custom dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                     Selecciona una opción
+                                  
+                                    </button>
+
+
+
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="#">No específica</a>
+                                        <a class="dropdown-item" href="#">Femenino</a>
+                                        <a class="dropdown-item" href="#">Masculino</a>
                                     </div>
                                 </div>
 
