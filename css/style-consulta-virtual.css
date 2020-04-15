@@ -1,0 +1,85 @@
+.card-CV-active {
+  background: #FFFFFF;
+  /* Auna-Sea */
+
+  border: 1px solid #00B0CA;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+
+.content-cv{
+  height: calc(100% - 65px);
+}
+
+.bolder{
+  font-weight: 700 !important;
+}
+
+.greeting-header{
+  font-family: Axiforma;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  /* display: flex;
+  align-items: center; */
+  text-align: right;
+  letter-spacing: 0.015em;
+  /* Auna-Sea */
+  color: #00B0CA;
+}
+
+.greeting-header strong{
+  font-weight: 600;
+}
+
+.image-links span{
+  padding-right: 20px;
+}
+
+.image-links img{
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+
+.main-holder{
+  width: 50%;
+}
+
+.rectangle-6{
+  background: #FFFFFF;
+  border-bottom:  #E4E5ED;
+  max-height: 64px;
+  height: 64px;
+}
+
+.sidebar-consulta{
+  border-right: 1px solid #E4E5ED;;
+}
+
+.sidebar-consulta .sidebar-options{
+
+}
+
+
+.warning-box{
+  /* Auna-Peach */
+  background: #FFF0E6;
+  border-radius: 4px;
+}
+
+@media (max-width: 640px) {
+  .greeting-header{
+    display: none;
+  }
+
+  .sidebar-consulta{
+    display: none;
+  }
+  
+  .main-holder{
+    width: 100%;
+  }
+}
