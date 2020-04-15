@@ -192,13 +192,21 @@ p {
 }
 
 #btnTyC-aceptar {
-    width: 328px;
-    margin-top: 41px
+    margin-top: 41px;
+    display: block;
+    float: left;
+    width: 148px;
+    margin-bottom: 94px;
+    margin-left: 16px;
 }
 
 #btnTyC-cancelar {
-    padding-top: 24px;
-    padding-bottom: 46px;
+    margin-top: 41px;
+    display: block;
+    float: right;
+    width: 148px;
+    margin-bottom: 94px;
+    margin-right: 16px;
 }
 
 #form_registro ul.timeline.text-center>li:nth-child(2)::before {
@@ -305,11 +313,14 @@ p {
         margin-top: 16px;
     }
     #btnTyC-aceptar {
-        width: 100%;
-        margin-top: 24px
+        margin-top: 24px;
+        margin-bottom: 56px;
+        margin-left: 8px;
     }
     #btnTyC-cancelar {
-        padding-bottom: 40px;
+        margin-top: 24px;
+        margin-bottom: 56px;
+        margin-right: 8px;
     }
     .div_timeline {
         margin-top: 56px!important;
@@ -404,11 +415,14 @@ p {
         margin-top: 16px;
     }
     #btnTyC-aceptar {
-        width: 100%;
-        margin-top: 24px
+        margin-top: 24px;
+        margin-bottom: 56px;
+        margin-left: 8px;
     }
     #btnTyC-cancelar {
-        padding-bottom: 40px;
+        margin-top: 24px;
+        margin-bottom: 56px;
+        margin-right: 8px;
     }
     .div_timeline {
         margin-top: 56px!important;
