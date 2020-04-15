@@ -1,3 +1,9 @@
+.auna-card-main{
+  padding: 24px 40px;
+  border: 1px solid #E4E5ED;
+  border-radius: 16px;
+}
+
 .card-CV-active {
   background: #FFFFFF;
   /* Auna-Sea */
@@ -46,6 +52,7 @@
 
 .main-holder{
   width: 50%;
+  min-width: 400px;
 }
 
 .rectangle-6{
@@ -70,7 +77,7 @@
   border-radius: 4px;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 768px) {
   .greeting-header{
     display: none;
   }
@@ -81,5 +88,11 @@
   
   .main-holder{
     width: 100%;
+    min-width: unset;
+  }
+
+  .auna-card-main{
+    padding: 0;
+    border: unset;
   }
 }
