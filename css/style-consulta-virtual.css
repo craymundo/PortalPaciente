@@ -1,6 +1,7 @@
 .auna-card-main{
   padding: 24px 40px;
   border: 1px solid #E4E5ED;
+  min-height: 400px;
   border-radius: 16px;
 }
 
@@ -9,6 +10,15 @@
   /* Auna-Sea */
 
   border: 1px solid #00B0CA;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+
+.card-CV-inactive{
+  background: #FFFFFF;
+  /* Auna-Sea */
+
+  border: 1px solid #B8BCD5;
   box-sizing: border-box;
   border-radius: 16px;
 }
@@ -62,6 +72,16 @@
   height: 64px;
 }
 
+.responsiive-separator-01{
+  border-bottom: 1px solid #E4E5ED;
+  width: 100%;
+  margin: 8px 0 32px;
+}
+
+.select-option:hover{
+  background: #E6F6F9;
+}
+
 .sidebar-consulta{
   border-right: 1px solid #E4E5ED;;
 }
@@ -95,4 +115,9 @@
     padding: 0;
     border: unset;
   }
+
+  .responsiive-separator-01{
+    display: none;
+  }
+
 }
