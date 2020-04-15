@@ -1,10 +1,3 @@
-.rectangle-6{
-  background: #FFFFFF;
-  border-bottom:  #E4E5ED;
-  max-height: 64px;
-  height: 64px;
-}
-
 .card-CV-active {
   background: #FFFFFF;
   /* Auna-Sea */
@@ -16,12 +9,6 @@
 
 .content-cv{
   height: calc(100% - 65px);
-}
-
-.warning-box{
-  /* Auna-Peach */
-  background: #FFF0E6;
-  border-radius: 4px;
 }
 
 .bolder{
@@ -56,12 +43,31 @@
   width: 20px;
   cursor: pointer;
 }
+
+.main-holder{
+  width: 50%;
+}
+
+.rectangle-6{
+  background: #FFFFFF;
+  border-bottom:  #E4E5ED;
+  max-height: 64px;
+  height: 64px;
+}
+
 .sidebar-consulta{
   border-right: 1px solid #E4E5ED;;
 }
 
 .sidebar-consulta .sidebar-options{
 
+}
+
+
+.warning-box{
+  /* Auna-Peach */
+  background: #FFF0E6;
+  border-radius: 4px;
 }
 
 @media (max-width: 640px) {
@@ -71,5 +77,9 @@
 
   .sidebar-consulta{
     display: none;
+  }
+  
+  .main-holder{
+    width: 100%;
   }
 }
