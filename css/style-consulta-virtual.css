@@ -10,6 +10,8 @@
   box-sizing: border-box;
   border-radius: 40px;
   color: #00B0CA;
+  width: 148px;
+  text-align: center;
   cursor: pointer;
 }
 .button-1:focus{ outline: 0 !important; }
@@ -18,6 +20,8 @@
   background: #00B0CA;
   border-radius: 40px;
   color: #FFFFFF;
+  width: 148px;
+  text-align: center;
   cursor: pointer;
 }
 .button-2:focus{ outline: 0 !important; }
@@ -224,6 +228,8 @@
     line-height: 22px;
     /* or 122% */
     text-align: center;
+
+    padding: 24px 0 16px 0;
   }
 
   .model-card{
