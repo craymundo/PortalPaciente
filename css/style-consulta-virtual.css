@@ -82,6 +82,14 @@
   min-width: 400px;
 }
 
+.main-holder.holder-exception{
+  min-width: 580px;
+}
+
+.main-holder.holder-exception-2{
+  min-width: 865px;
+}
+
 .modal-stil{
   position: absolute;
   left: 0;
@@ -98,6 +106,18 @@
   border-radius: 16px;
 }
 
+.option-exceptiion{
+  margin-left: -32px;
+  margin-right: -32px;
+  /* margin: -8px -32px; */
+  padding: 8px 32px;
+  background-color: #E6F6F9;
+  border-right: 4px solid #00B0CA;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 .rectangle-6{
   background: #FFFFFF;
   border-bottom:  #E4E5ED;
@@ -109,6 +129,12 @@
   border-bottom: 1px solid #E4E5ED;
   width: 100%;
   margin: 8px 0 32px;
+}
+
+.resume-card{
+  padding: 40px;
+  background: #F6F8FA;
+  border-radius: 16px;
 }
 
 .select-option:hover{
@@ -130,6 +156,14 @@
   border-radius: 4px;
 }
 
+.w-30{
+  width: 30%;  
+}
+
+.w-70{
+  width: 70%;  
+}
+
 @media (max-width: 768px) {
   .auna-card-main{
     padding: 0;
@@ -144,7 +178,12 @@
     display: none;
   }
   
-  .main-holder{
+  .main-holder, .main-holder.holder-exception{
+    width: 100%;
+    min-width: unset;
+  }
+  
+  .main-holder, .main-holder.holder-exception-2{
     width: 100%;
     min-width: unset;
   }
