@@ -5,6 +5,10 @@
   border-radius: 16px;
 }
 
+.big-main{
+  width: calc(100% - 192px);
+}
+
 .button-1{
   border: 1px solid #00B0CA;
   box-sizing: border-box;
@@ -146,7 +150,8 @@
 }
 
 .sidebar-consulta{
-  border-right: 1px solid #E4E5ED;;
+  border-right: 1px solid #E4E5ED;
+  width: 192px;
 }
 
 .sidebar-consulta .sidebar-options{
@@ -188,8 +193,17 @@
     border: unset;
   }
 
+  .big-main{
+    width: 100%;
+  }
+
   .greeting-header{
     display: none;
+  }
+
+  .karen-holder{
+    padding-right: 24px;
+    padding-left: 24px;
   }
 
   .sidebar-consulta{
