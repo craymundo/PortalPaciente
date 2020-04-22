@@ -21,11 +21,11 @@
     <div class="d-flex justify-content-between justify-content-md-start align-items-center py-3 pl-3">
       <span class="px-1">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M7.18 10H2V2H10V7.18C10 8.74 8.74 10 7.18 10Z" fill="#00B0CA"/>
+          <path d="M7.18 10H2V2H10V7.18C10 8.74 8.74 10 7.18 10Z" fill="#C2DF0A"/>
           <path d="M10 22H2V14H7.18C8.74 14 10 15.26 10 16.82V22Z" fill="#00B0CA"/>
           <path d="M22 10H16.82C15.26 10 14 8.74 14 7.18V2H22V10Z" fill="#00B0CA"/>
-          <path d="M22 22H14V16.82C14 15.26 15.26 14 16.82 14H22V22Z" fill="#00B0CA"/>
-        </svg>
+          <path d="M22 22H14V16.82C14 15.26 15.26 14 16.82 14H22V22Z" fill="#C2DF0A"/>
+        </svg>          
       </span>
   
       <span class="px-1 pl-md-2">
@@ -51,26 +51,41 @@
 
 <body class="w-100">
   <div class="row w-100 content-cv m-0 justify-content-center">
-    <div class="col-sm-4 col-md-3 col-lg-2 sidebar-consulta">
+    <div class="sidebar-consulta">
       <div class="py-4 px-3 text-left sidebar-options">
 
-        <nav class="w-100 h-25">
+        <nav class="w-100 mb-4 menu-hei">
           <div class="w-auto option-exceptiion">
-            <span>
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g clip-path="url(#clip0)">
-                <path d="M14.84 2.1296C13.94 1.8496 13 2.0196 12.23 2.5796C11.46 3.1496 11 4.0596 11 5.0196V10.6896H8C7.45 10.6896 7 11.1396 7 11.6896C7 12.2396 7.45 12.6896 8 12.6896H11V15.6896C11 16.2396 11.45 16.6896 12 16.6896C12.55 16.6896 13 16.2396 13 15.6896V12.6896H16C16.55 12.6896 17 12.2396 17 11.6896C17 11.1396 16.55 10.6896 16 10.6896H13V5.0196C13 4.6896 13.15 4.3896 13.42 4.1896C13.56 4.0796 13.86 3.9196 14.25 4.0396C17.03 4.8996 20 7.3596 20 11.7096C20 16.1096 16.41 19.6896 12 19.6896C8.15 19.6896 4 16.6396 4 11.7096C4 8.5896 5.86 6.4796 6.43 5.9096C6.82 5.5196 6.82 4.8896 6.43 4.4996C6.03 4.0996 5.4 4.0996 5.01 4.4896C3.12 6.3896 2 9.0896 2 11.7096C2 17.8696 7.19 21.6896 12 21.6896C17.51 21.6896 22 17.2096 22 11.7096C22 6.2796 18.3 3.1996 14.84 2.1296Z" fill="#00B0CA"/>
-                </g>
-                <defs>
-                <clipPath id="clip0">
-                <rect x="2" y="2" width="20" height="19.68" fill="white"/>
-                </clipPath>
-                </defs>
-              </svg>                           
-            </span>
-            <span class="lbl-auna-dark subTitle2"> Nueva Cita </span>
+            <div class="w-100 d-flex align-items-center">
+              <span>
+                <img src="img/svg/message/new-plus-sel.svg" class="mr-1" alt="">
+              </span>
+              <span class="lbl-auna-dark subTitle2"> Nueva Cita </span>
+            </div>
+          </div>
+
+          <div class="w-auto pl-4 pt-3">
+            <div class="w-100 d-flex align-items-center">
+              <span class="lbl-auna-grey-dark subTitle5"> Consulta Presencial </span>
+            </div>
+          </div>
+
+          <div class="w-auto pl-4 pt-3">
+            <div class="w-100 d-flex align-items-center">
+              <span class="lbl-auna-sea subTitle5"> Teleconsulta </span>
+            </div>
+          </div>
+
+          <div class="w-100 mt-4">
+            <div class="w-100 d-flex align-items-center">
+              <span>
+                <img src="img/svg/message/calendar-icon.svg" class="mr-1" alt="">
+              </span>
+              <span class="lbl-auna-dark subTitle2"> Mis Citas </span>
+            </div>
           </div>
         </nav>
+
 
         <nav class="w-100 subTitle5 lbl-auna-grey-dark">
           <div> Contáctanos Auna </div>
@@ -133,8 +148,8 @@
       </div>
     </div>
 
-    <div class="col-12 col-sm-8 col-md-9 col-lg-10">
-      <section class="w-100 d-flex flex-column align-items-center px-2">
+    <div class="big-main">
+      <section class="w-100 d-flex flex-column align-items-center">
         <div class="main-holder holder-exception-2">
           <div class="w-100 py-3 py-md-4 mt-md-4">
             <h3 class="responsive-text"> ¿Por cuál opción deseas buscar? </h3>
@@ -142,9 +157,9 @@
         </div>
 
         <div class="d-flex main-holder holder-exception-2">
-          <div class="w-70 mr-3">
+          <div class="w-70">
             <div class="auna-card-main">
-              <div class="row align-items-center justify-content-center px-3">
+              <div class="d-flex flex-column align-items-center justify-content-center px-4">
                 <!-- <div class="col-lg-12  pr-0 pl-0 mt-0">
                   <h5 class="lbl-auna-dark"> Auna te cuida </h5>
                 </div>
@@ -155,17 +170,7 @@
 
                     <div class="d-flex justify-content-between align-items-center">
                       <span>
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <g clip-path="url(#clip0)">
-                          <path d="M21.41 3.36039C20.83 2.59039 19.95 2.15039 18.99 2.15039H16.06C15.51 2.15039 15.06 2.60039 15.06 3.15039C15.06 3.70039 15.51 4.15039 16.06 4.15039H18.99C19.31 4.15039 19.61 4.30039 19.8 4.56039C19.99 4.81039 20.05 5.13039 19.96 5.43039C18.98 8.74039 15.66 11.1504 12.06 11.1504C10.25 11.1504 8.53 10.5604 7.11 9.44039C6.68 9.10039 6.05 9.17039 5.71 9.61039C5.37 10.0504 5.44 10.6704 5.88 11.0104C7.39 12.2004 9.17 12.9104 11.07 13.1004V17.6904C11.07 19.0504 9.96 20.1604 8.6 20.1604C7.39 20.1604 6.39 19.2804 6.18 18.1304C6.86 17.7304 7.33 17.0004 7.33 16.1604C7.33 14.9004 6.31 13.8704 5.04 13.8704C3.78 13.8704 2.75 14.8904 2.75 16.1604C2.75 17.1204 3.35 17.9504 4.19 18.2804C4.48 20.4604 6.34 22.1604 8.6 22.1604C11.06 22.1604 13.07 20.1604 13.07 17.6904V13.0904C17.14 12.6804 20.75 9.83039 21.89 6.00039C22.15 5.08039 21.97 4.12039 21.41 3.36039Z" fill="#B8BCD5"/>
-                          <path d="M3.25021 7.87C3.43021 8.2 3.77021 8.39 4.13021 8.39C4.29021 8.39 4.45021 8.35 4.60021 8.27C5.09021 8.01 5.27021 7.4 5.01021 6.92C4.90021 6.71 4.74021 6.47 4.58021 6.22C4.37021 5.91 4.11021 5.51 4.04021 5.28C3.95021 4.98 4.01021 4.66 4.20021 4.41C4.39021 4.15 4.69021 4 4.96021 4L8.01021 4.15C8.55021 4.18 9.03021 3.75 9.06021 3.2C9.09021 2.65 8.66021 2.18 8.11021 2.15L5.01021 2C4.05021 2 3.17021 2.44 2.60021 3.21C2.03021 3.98 1.86021 4.94 2.12021 5.84C2.27021 6.36 2.61021 6.87 2.90021 7.32C3.04021 7.51 3.16021 7.7 3.25021 7.87Z" fill="#B8BCD5"/>
-                          </g>
-                          <defs>
-                          <clipPath id="clip0">
-                          <rect x="2" y="2" width="20" height="20.15" fill="white"/>
-                          </clipPath>
-                          </defs>
-                        </svg>                          
+                        <img src="img/svg/message/speciality-doctor-icon.svg" alt="">
                       </span>
                       
                       <nav class="w-100 pl-3 body1">
@@ -173,9 +178,7 @@
                       </nav>
 
                       <span>
-                        <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M7.99494 5.86914L2.29825 0.392574C1.77178 -0.113554 0.921324 -0.113554 0.394853 0.392574C-0.131618 0.898703 -0.131618 1.71629 0.394853 2.22242L7.04999 8.6204C7.57646 9.12653 8.42692 9.12653 8.95339 8.6204L15.6085 2.22242C15.8785 1.96287 16 1.63843 16 1.30101C16 0.96359 15.865 0.639148 15.6085 0.379595C15.082 -0.126533 14.2316 -0.126533 13.7051 0.379595L7.99494 5.86914Z" fill="#00B0CA"/>
-                        </svg>                                    
+                        <img src="img/svg/message/doctor-icon.svg" alt="">
                       </span>
                     </div>
 
@@ -209,9 +212,7 @@
                       </nav>
 
                       <span>
-                        <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M7.99494 5.86914L2.29825 0.392574C1.77178 -0.113554 0.921324 -0.113554 0.394853 0.392574C-0.131618 0.898703 -0.131618 1.71629 0.394853 2.22242L7.04999 8.6204C7.57646 9.12653 8.42692 9.12653 8.95339 8.6204L15.6085 2.22242C15.8785 1.96287 16 1.63843 16 1.30101C16 0.96359 15.865 0.639148 15.6085 0.379595C15.082 -0.126533 14.2316 -0.126533 13.7051 0.379595L7.99494 5.86914Z" fill="#00B0CA"/>
-                        </svg>                                    
+                        <img src="img/svg/message/down-arrow.svg" class="rotate-icon" alt="">
                       </span>
                     </div>
                     
@@ -222,11 +223,7 @@
 
                 <div class="w-100 warning-box d-flex align-items-center p-2 mt-3">
                   <div class="p-2">
-                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M7.33325 10.72C7.33325 11.0866 7.63325 11.3866 7.99992 11.3866C8.36659 11.3866 8.66659 11.0866 8.66659 10.72V7.38664C8.66659 7.01997 8.36659 6.71997 7.99992 6.71997C7.63325 6.71997 7.33325 7.01997 7.33325 7.38664V10.72Z" fill="#FF6900"/>
-                          <path d="M7.99992 5.99984C8.36811 5.99984 8.66659 5.70136 8.66659 5.33317C8.66659 4.96498 8.36811 4.6665 7.99992 4.6665C7.63173 4.6665 7.33325 4.96498 7.33325 5.33317C7.33325 5.70136 7.63173 5.99984 7.99992 5.99984Z" fill="#FF6900"/>
-                          <path d="M7.99992 1.33325C6.75992 1.33325 5.55325 1.67325 4.50659 2.31992C4.19325 2.51325 4.09325 2.92659 4.28659 3.23992C4.47992 3.55325 4.89325 3.65325 5.20659 3.45992C6.04659 2.93992 7.01325 2.66659 7.99992 2.66659C10.9399 2.66659 13.3333 5.05992 13.3333 7.99992C13.3333 10.9399 10.9399 13.3333 7.99992 13.3333C5.05992 13.3333 2.66659 10.9399 2.66659 7.99992C2.66659 7.29325 2.79992 6.61325 3.06659 5.96659C3.20659 5.62659 3.04659 5.23992 2.70659 5.09325C2.36659 4.95325 1.97325 5.11325 1.83325 5.45325C1.49992 6.26659 1.33325 7.11992 1.33325 7.99992C1.33325 11.6733 4.32659 14.6666 7.99992 14.6666C11.6733 14.6666 14.6666 11.6733 14.6666 7.99992C14.6666 4.32659 11.6733 1.33325 7.99992 1.33325Z" fill="#FF6900"/>
-                      </svg>
+                    <img src="img/svg/message/info-icon.svg" alt="">
                   </div>
                   <div class="body4 m-0">
                     <b class="bolder"> Recuerda </b> <br>
@@ -239,10 +236,10 @@
 
           </div>
 
-          <div class="w-30 ml-2">
+          <div class="w-30">
             <div class="resume-card lbl-auna-dark">
               <h6> Resumen de tu cita </h6>
-              <p class="body2">
+              <p class="body2 m-0">
                 Aquí verás las opciones que irás eligiendo para la reserva de tu cita en Auna.
               </p>
             </div>

@@ -21,10 +21,10 @@
     <div class="d-flex justify-content-between justify-content-md-start align-items-center py-3 pl-3">
       <span class="px-1">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M7.18 10H2V2H10V7.18C10 8.74 8.74 10 7.18 10Z" fill="#00B0CA"/>
+          <path d="M7.18 10H2V2H10V7.18C10 8.74 8.74 10 7.18 10Z" fill="#C2DF0A"/>
           <path d="M10 22H2V14H7.18C8.74 14 10 15.26 10 16.82V22Z" fill="#00B0CA"/>
           <path d="M22 10H16.82C15.26 10 14 8.74 14 7.18V2H22V10Z" fill="#00B0CA"/>
-          <path d="M22 22H14V16.82C14 15.26 15.26 14 16.82 14H22V22Z" fill="#00B0CA"/>
+          <path d="M22 22H14V16.82C14 15.26 15.26 14 16.82 14H22V22Z" fill="#C2DF0A"/>
         </svg>
       </span>
   
@@ -51,32 +51,39 @@
 
 <body class="w-100">
   <div class="row w-100 content-cv m-0 justify-content-center">
-    <div class="col-sm-4 col-md-3 col-lg-2 sidebar-consulta">
+    <div class="sidebar-consulta">
       <div class="py-4 px-3 text-left sidebar-options">
 
-        <nav class="w-100 h-25">
-          <span>
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <g clip-path="url(#clip0)">
-              <path d="M14.84 2.1296C13.94 1.8496 13 2.0196 12.23 2.5796C11.46 3.1496 11 4.0596 11 5.0196V10.6896H8C7.45 10.6896 7 11.1396 7 11.6896C7 12.2396 7.45 12.6896 8 12.6896H11V15.6896C11 16.2396 11.45 16.6896 12 16.6896C12.55 16.6896 13 16.2396 13 15.6896V12.6896H16C16.55 12.6896 17 12.2396 17 11.6896C17 11.1396 16.55 10.6896 16 10.6896H13V5.0196C13 4.6896 13.15 4.3896 13.42 4.1896C13.56 4.0796 13.86 3.9196 14.25 4.0396C17.03 4.8996 20 7.3596 20 11.7096C20 16.1096 16.41 19.6896 12 19.6896C8.15 19.6896 4 16.6396 4 11.7096C4 8.5896 5.86 6.4796 6.43 5.9096C6.82 5.5196 6.82 4.8896 6.43 4.4996C6.03 4.0996 5.4 4.0996 5.01 4.4896C3.12 6.3896 2 9.0896 2 11.7096C2 17.8696 7.19 21.6896 12 21.6896C17.51 21.6896 22 17.2096 22 11.7096C22 6.2796 18.3 3.1996 14.84 2.1296Z" fill="#B8BCD5"/>
-              </g>
-              <defs>
-              <clipPath id="clip0">
-              <rect x="2" y="2" width="20" height="19.68" fill="white"/>
-              </clipPath>
-              </defs>
-            </svg>              
-          </span>
-          <span class="lbl-auna-dark"> Nueva Cita </span>
+        <nav class="w-100 mb-4 menu-hei">
+          <div class="w-100 d-flex align-items-center mb-4">
+            <span>
+              <img src="img/svg/message/new-plus.svg" class="mr-1" alt="">
+            </span>
+            <span class="lbl-auna-dark subTitle2"> Nueva Cita </span>
+          </div>
+
+          <div class="w-100 mt-2 d-flex align-items-center">
+            <span>
+              <img src="img/svg/message/calendar-icon.svg" class="mr-1" alt="">
+            </span>
+            <span class="lbl-auna-dark subTitle2"> Mis Citas </span>
+          </div>
         </nav>
+
+        <!-- <nav class="w-100 mt-2 h-25">
+          <div class="w-100">
+            <span>
+              <img src="img/svg/message/calendar-icon.svg" class="mr-1" alt="">
+            </span>
+            <span class="lbl-auna-dark subTitle2"> Mis Citas </span>
+          </div>
+        </nav> -->
 
         <nav class="w-100 subTitle5 lbl-auna-grey-dark">
           <div> Contáctanos Auna </div>
           <div class="row lbl-auna-sea py-2">
             <div class="col-2">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M17.5 22.0104C17.3 22.0104 17.09 22.0004 16.88 21.9704C16.76 21.9604 16.64 21.9404 16.52 21.9104C15.98 21.8104 15.62 21.2804 15.73 20.7404C15.84 20.2004 16.36 19.8504 16.9 19.9504C16.97 19.9604 17.04 19.9704 17.12 19.9804C18.03 20.1004 18.9 19.7904 19.54 19.1604L19.63 19.0704C20.14 18.5604 20.14 17.7404 19.63 17.2304L18.41 16.0104C17.99 15.5804 17.33 15.5104 16.81 15.8204C16.78 15.8404 16.74 15.8604 16.71 15.8704C14.83 16.9404 12.43 16.6204 10.88 15.0704L8.95001 13.1404C7.39001 11.5804 7.07001 9.20043 8.13001 7.30043C8.15001 7.27043 8.17001 7.23043 8.19001 7.20043C8.51001 6.68043 8.43001 6.03043 8.00001 5.60043L6.78001 4.38043C6.27001 3.87043 5.45001 3.87043 4.94001 4.38043L4.85001 4.47043C4.21001 5.10043 3.91001 5.98043 4.02001 6.87043C4.02001 6.87043 4.02001 6.88043 4.02001 6.89043C4.03001 6.96043 4.04001 7.03043 4.06001 7.10043C4.38001 9.60043 5.43001 11.9904 7.08001 14.1004C7.09001 14.1104 8.49001 15.8704 9.64001 16.7204C10.84 17.6104 12.04 18.3304 13.19 18.8604C13.69 19.0904 13.91 19.6804 13.68 20.1904C13.45 20.6904 12.86 20.9104 12.35 20.6804C11.07 20.0904 9.75001 19.3004 8.44001 18.3304C7.07001 17.3204 5.56001 15.4204 5.50001 15.3304C3.62001 12.9304 2.44001 10.2004 2.08001 7.42043C2.07001 7.38043 2.05001 7.26043 2.04001 7.14043V7.13043C1.85001 5.62043 2.36001 4.13043 3.43001 3.06043L3.52001 2.97043C4.81001 1.68043 6.90001 1.68043 8.19001 2.97043L9.41001 4.19043C10.47 5.25043 10.68 6.88043 9.93001 8.18043C9.92001 8.20043 9.91001 8.23043 9.89001 8.25043C9.25001 9.37043 9.43001 10.8004 10.35 11.7204L12.29 13.6704C13.21 14.5904 14.64 14.7804 15.76 14.1204C15.79 14.1004 15.82 14.0904 15.86 14.0704C17.09 13.3204 18.75 13.5204 19.82 14.6004L21.04 15.8204C22.33 17.1104 22.33 19.2004 21.04 20.4904L20.95 20.5804C20.03 21.5104 18.79 22.0104 17.5 22.0104Z" fill="#00B0CA"/>
-              </svg>                
+              <img src="img/svg/message/call.svg" alt="">
             </div>
             <div class="col-10 d-flex align-items-center">
               01 555 5555
@@ -84,10 +91,7 @@
           </div>
           <div class="row lbl-auna-sea py-2">
             <div class="col-2">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M20 11C19.45 11 19 11.45 19 12V18C19 18.55 18.55 19 18 19H6C5.45 19 5 18.55 5 18V6C5 5.45 5.45 5 6 5H12C12.55 5 13 4.55 13 4C13 3.45 12.55 3 12 3H6C4.35 3 3 4.35 3 6V18C3 19.65 4.35 21 6 21H18C19.65 21 21 19.65 21 18V12C21 11.45 20.55 11 20 11Z" fill="#00B0CA"/>
-                <path d="M20 3H16C15.45 3 15 3.45 15 4C15 4.55 15.45 5 16 5H17.59L8.46999 14.12C8.07999 14.51 8.07999 15.14 8.46999 15.53C8.66999 15.73 8.91999 15.82 9.17999 15.82C9.43999 15.82 9.68999 15.72 9.88999 15.53L19 6.41V8C19 8.55 19.45 9 20 9C20.55 9 21 8.55 21 8V4C21 3.45 20.55 3 20 3Z" fill="#00B0CA"/>
-              </svg>                
+              <img src="img/svg/message/goto-link.svg" alt="">
             </div>
             <div class="col-10 d-flex align-items-center">
               www.auna.pe
@@ -97,17 +101,7 @@
           <div> WhatsApp COVID-19 </div>
           <div class="row lbl-auna-sea py-2">
             <div class="col-2">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g clip-path="url(#clip0)">
-                <path d="M10.7937 2C11.5739 2 12.3549 2 13.135 2C13.1501 2.06589 13.1995 2.07423 13.2572 2.0809C17.4358 2.5563 20.9339 5.77898 21.761 9.89574C21.8463 10.3186 21.8271 10.7615 21.9995 11.1676C21.9995 11.6956 21.9995 12.2235 21.9995 12.7506C21.8321 13.045 21.8698 13.3811 21.8095 13.6972C20.6276 19.8766 14.2165 23.4479 8.35201 21.1193C7.45384 20.7623 6.6963 20.7173 5.82156 20.9975C4.62289 21.3811 3.37398 21.5947 2.18033 22.0008C2.12425 22.0008 2.069 22.0008 2.01292 22.0008C1.97525 21.8724 2.03217 21.7573 2.06481 21.638C2.44149 20.2635 2.79557 18.8816 3.20406 17.5171C3.33715 17.0717 3.29781 16.7198 3.09106 16.3086C0.27182 10.7056 3.39826 3.88991 9.48875 2.30776C9.92235 2.19516 10.3811 2.19349 10.7937 2ZM4.38683 19.6222C5.37206 19.367 6.27442 19.1451 7.16924 18.8949C7.40697 18.8282 7.58359 18.8574 7.79202 18.9791C9.07607 19.7281 10.4614 20.1443 11.9547 20.1509C17.2098 20.1726 21.1281 15.3803 20.081 10.2193C19.3954 6.84153 16.4489 4.11843 13.0831 3.75229C9.41425 3.35196 5.99149 5.20851 4.53583 8.42952C3.32292 11.1126 3.49117 13.7348 5.01463 16.2585C5.16279 16.5037 5.19962 16.7148 5.11592 16.9933C4.86229 17.8399 4.6413 18.6947 4.38683 19.6222Z" fill="#00B0CA"/>
-                <path d="M14.5811 16.6855C13.5674 16.6571 12.6483 16.2743 11.7836 15.8147C9.8115 14.7655 8.35668 13.1784 7.32876 11.2184C6.64572 9.9165 6.83992 8.66629 7.76655 7.67964C8.07793 7.34853 8.85222 7.18506 9.2356 7.37105C9.39966 7.45028 9.46663 7.60791 9.53108 7.75887C9.79057 8.37022 10.0367 8.9874 10.3003 9.59707C10.3866 9.7964 10.3732 9.97655 10.2694 10.1525C10.1857 10.2952 10.0902 10.4328 9.98561 10.5612C9.43984 11.2318 9.44235 11.2276 9.95296 11.9474C10.7205 13.0291 11.7183 13.8156 12.9471 14.3227C13.2091 14.4311 13.3933 14.4036 13.5641 14.1792C13.7909 13.8815 14.0337 13.5954 14.263 13.2985C14.3986 13.1225 14.5484 13.0566 14.7686 13.1442C15.4927 13.4303 16.1791 13.7939 16.8747 14.1384C16.9944 14.1976 17.068 14.2935 17.0638 14.4353C17.0463 14.9832 16.9835 15.5162 16.5482 15.9207C15.9949 16.4344 15.3512 16.7155 14.5811 16.6855Z" fill="#00B0CA"/>
-                </g>
-                <defs>
-                <clipPath id="clip0">
-                <rect x="2" y="2" width="20" height="20" fill="white"/>
-                </clipPath>
-                </defs>
-              </svg>
+              <img src="img/svg/message/whatsapp-logo.svg" alt="">
             </div>
             <div class="col-10 d-flex align-items-center">
               +51 954070780
@@ -131,15 +125,15 @@
       </div>
     </div>
 
-    <div class="col-12 col-sm-8 col-md-9 col-lg-10">
-      <section class="w-100 d-flex flex-column align-items-center px-2">
+    <div class="big-main">
+      <section class="w-100 d-flex flex-column align-items-center">
         <div class="main-holder">
-          <div class="w-100 py-3 py-md-4 mt-md-4">
+          <div class="w-100 py-3 py-md-4 mt-md-4 karen-holder">
             <img src="img/karen-greeting-desk.svg" class="w-100" alt="">
           </div>
           
           <div class="auna-card-main">
-            <div class="row align-items-center justify-content-center px-3">
+            <div class="d-flex flex-column align-items-center justify-content-center px-4">
               <div class="col-lg-12  pr-0 pl-0 mt-0">
                 <!-- <img src="img/Logo Auna-Cian.svg" class="logo logo-auna-invalid-pb" /> -->
                 <h5 class="lbl-auna-dark"> Auna te cuida </h5>
@@ -150,17 +144,8 @@
                 <div class="card-CV-active w-100 px-4 pt-4 pb-3">
   
                   <div class="d-flex justify-content-between align-items-center">
-                    <span>
-                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g clip-path="url(#clip0)">
-                        <path d="M14.84 2.13009C13.94 1.85009 13 2.02009 12.23 2.58009C11.46 3.15009 11 4.06009 11 5.02009V10.6901H8C7.45 10.6901 7 11.1401 7 11.6901C7 12.2401 7.45 12.6901 8 12.6901H11V15.6901C11 16.2401 11.45 16.6901 12 16.6901C12.55 16.6901 13 16.2401 13 15.6901V12.6901H16C16.55 12.6901 17 12.2401 17 11.6901C17 11.1401 16.55 10.6901 16 10.6901H13V5.02009C13 4.69009 13.15 4.39009 13.42 4.19009C13.56 4.08009 13.86 3.92009 14.25 4.04009C17.03 4.90009 20 7.36009 20 11.7101C20 16.1101 16.41 19.6901 12 19.6901C8.15 19.6901 4 16.6401 4 11.7101C4 8.59009 5.86 6.48009 6.43 5.91009C6.82 5.52009 6.82 4.89009 6.43 4.50009C6.03 4.10009 5.4 4.10009 5.01 4.49009C3.12 6.39009 2 9.09009 2 11.7101C2 17.8701 7.19 21.6901 12 21.6901C17.51 21.6901 22 17.2101 22 11.7101C22 6.28009 18.3 3.20009 14.84 2.13009Z" fill="#00B0CA"/>
-                        </g>
-                        <defs>
-                        <clipPath id="clip0">
-                        <rect x="2" y="2" width="20" height="19.68" fill="white"/>
-                        </clipPath>
-                        </defs>
-                      </svg>                                    
+                    <span>                        
+                      <img src="img/svg/message/new-plus-sel.svg" alt="">
                     </span>
                     
                     <nav class="w-100 pl-3 subTitle2">
@@ -202,7 +187,7 @@
                   <span>Es una consulta virtual hecha por videollamada con tu médico tratante.</span>
                 </div>
               </div>
-
+              
             </div>
           </div>
         </div>
@@ -218,7 +203,7 @@
       </div>
       <h4 class="text-center"> Recuerda que... </h4>
       <div class="body2 text-center pt-2">
-        Las teleconsultas son válidas si tu médico tratante <br> te lo recomendó para:
+        Las <b>teleconsultas</b> son válidas si tu médico tratante <br class="d-none-mobile"> te lo recomendó para:
       </div>
       <div class="body d-flex py-3 justify-content-center align-items-center">
         <ul class="m-0">
