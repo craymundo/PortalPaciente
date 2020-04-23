@@ -30,7 +30,8 @@
   background: #00B0CA;
   border-radius: 40px;
   color: #FFFFFF;
-  width: 148px;
+  /* width: 148px; */
+  padding: 14px 20px;
   text-align: center;
   cursor: pointer;
 }
@@ -52,6 +53,10 @@
   border: 1px solid #B8BCD5;
   box-sizing: border-box;
   border-radius: 16px;
+}
+
+.card-CV-inactive.active{
+  border-color: #00B0CA;
 }
 
 .content-cv{
@@ -109,6 +114,19 @@
   height: 24px;
   width: 24px;
   border-radius: 12px;
+}
+
+.inner-card.active{
+  border-color: #00B0CA;
+  background: #E6F6F9;
+}
+
+.inner-card.active .inner-card-circle, .inner-card-circle.active{
+  height: 20px;
+  width: 20px;
+  border-color: #E6F6F9;
+  background: #00B0CA;
+  box-shadow: 0px 0px 0px 2px #00b0ca;
 }
 
 .main-holder{
@@ -379,4 +397,9 @@
     width: 100%;
     margin-right: 0 !important;
   }
+}
+
+/* Irrelevant */
+.lbl-auna-grey-dark {
+  color: #9194A7;
 }
