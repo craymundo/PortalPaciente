@@ -13,7 +13,9 @@
     <link rel="stylesheet" href="css/style-guide.css">
     <link rel="stylesheet" href="css/style-invalid.css">
     <link rel="stylesheet" href="fonts/icomoon/css/icomoon.css">
+    <link rel="stylesheet" href="css/style-consulta-virtual.css">
     <link rel="stylesheet" href="css/template-CV-12.css">
+
 </head>
 
 <header class="rectangle-6 row w-100 align-items-center m-0">
@@ -21,10 +23,10 @@
         <div class="d-flex justify-content-between justify-content-md-start align-items-center py-3 pl-3">
       <span class="px-1">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M7.18 10H2V2H10V7.18C10 8.74 8.74 10 7.18 10Z" fill="#00B0CA"/>
+          <path d="M7.18 10H2V2H10V7.18C10 8.74 8.74 10 7.18 10Z" fill="#C2DF0A"/>
           <path d="M10 22H2V14H7.18C8.74 14 10 15.26 10 16.82V22Z" fill="#00B0CA"/>
           <path d="M22 10H16.82C15.26 10 14 8.74 14 7.18V2H22V10Z" fill="#00B0CA"/>
-          <path d="M22 22H14V16.82C14 15.26 15.26 14 16.82 14H22V22Z" fill="#00B0CA"/>
+          <path d="M22 22H14V16.82C14 15.26 15.26 14 16.82 14H22V22Z" fill="#C2DF0A"/>
         </svg>
       </span>
 
@@ -51,24 +53,41 @@
 
 <body class="w-100">
 <div class="row w-100 content-cv m-0 justify-content-center">
-    <div class="col-sm-4 col-md-3 col-lg-2 sidebar-consulta">
+    <div class="sidebar-consulta">
         <div class="py-4 px-3 text-left sidebar-options">
 
-            <nav class="w-100 h-25">
-          <span>
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <g clip-path="url(#clip0)">
-              <path d="M14.84 2.1296C13.94 1.8496 13 2.0196 12.23 2.5796C11.46 3.1496 11 4.0596 11 5.0196V10.6896H8C7.45 10.6896 7 11.1396 7 11.6896C7 12.2396 7.45 12.6896 8 12.6896H11V15.6896C11 16.2396 11.45 16.6896 12 16.6896C12.55 16.6896 13 16.2396 13 15.6896V12.6896H16C16.55 12.6896 17 12.2396 17 11.6896C17 11.1396 16.55 10.6896 16 10.6896H13V5.0196C13 4.6896 13.15 4.3896 13.42 4.1896C13.56 4.0796 13.86 3.9196 14.25 4.0396C17.03 4.8996 20 7.3596 20 11.7096C20 16.1096 16.41 19.6896 12 19.6896C8.15 19.6896 4 16.6396 4 11.7096C4 8.5896 5.86 6.4796 6.43 5.9096C6.82 5.5196 6.82 4.8896 6.43 4.4996C6.03 4.0996 5.4 4.0996 5.01 4.4896C3.12 6.3896 2 9.0896 2 11.7096C2 17.8696 7.19 21.6896 12 21.6896C17.51 21.6896 22 17.2096 22 11.7096C22 6.2796 18.3 3.1996 14.84 2.1296Z" fill="#B8BCD5"/>
-              </g>
-              <defs>
-              <clipPath id="clip0">
-              <rect x="2" y="2" width="20" height="19.68" fill="white"/>
-              </clipPath>
-              </defs>
-            </svg>
-          </span>
-                <span class="lbl-auna-dark"> Nueva Cita </span>
+            <nav class="w-100 mb-4 menu-hei">
+                <div class="w-auto option-exceptiion">
+                    <div class="w-100 d-flex align-items-center">
+              <span>
+                <img src="img/svg/message/new-plus-sel.svg" class="mr-1" alt="">
+              </span>
+                        <span class="lbl-auna-dark subTitle2"> Nueva Cita </span>
+                    </div>
+                </div>
+
+                <div class="w-auto pl-4 pt-3">
+                    <div class="w-100 d-flex align-items-center">
+                        <span class="lbl-auna-grey-dark subTitle5"> Consulta Presencial </span>
+                    </div>
+                </div>
+
+                <div class="w-auto pl-4 pt-3">
+                    <div class="w-100 d-flex align-items-center">
+                        <span class="lbl-auna-sea subTitle5"> Teleconsulta </span>
+                    </div>
+                </div>
+
+                <div class="w-100 mt-4">
+                    <div class="w-100 d-flex align-items-center">
+              <span>
+                <img src="img/svg/message/calendar-icon.svg" class="mr-1" alt="">
+              </span>
+                        <span class="lbl-auna-dark subTitle2"> Mis Citas </span>
+                    </div>
+                </div>
             </nav>
+
 
             <nav class="w-100 subTitle5 lbl-auna-grey-dark">
                 <div> Contáctanos Auna </div>
@@ -131,27 +150,93 @@
         </div>
     </div>
 
-    <div class="col-12 col-sm-8 col-md-9 col-lg-10">
-        <section class="w-100 d-flex flex-column align-items-center px-2">
-            <div class="main-holder">
-                <div class="w-100 py-3 py-md-4 my-md-4">
-                    <h3 class="lbl-auna-dark"> Elige una fecha y hora </h3>
+    <div class="big-main">
+        <section class="w-100 d-flex flex-column align-items-center">
+            <div class="col-lg-12 text-center pr-0 pl-0 d-flex width-100 div_timeline">
+                <ul class='steps text-center'>
+                    <li class='active' onclick="activar_paso('1')"> </li>
+                    <li onclick="activar_paso('2')"></li>
+                </ul>
+            </div>
+
+            <div class="main-holder holder-exception-2">
+                <div class="w-100 py-3 py-md-0 my-md-4">
+                    <h3 class="responsive-text"> Elige una fecha y hora </h3>
                 </div>
+            </div>
 
-                <div class="auna-card-main">
-                    <div class="row align-items-center justify-content-center px-3">
-                        <div class="col-lg-12  pr-0 pl-0 mt-0">
-                            <p class="inpt-mdl">Gastroenterología</p>
-                            <img class="image-eye-icon" src="img/pincel.svg">
-                            <a href="#">News <span class="">5</span></a><br>
-                        </div>
-                        <div class="responsiive-separator-01"></div>
-                        <div class="col-lg-12 pt-2 pr-0 pl-0">
-                            <!-- <img src="img/svg/message/unhappy.svg" class="logotype img-invalid  " /> -->
-                            <div class="card-CV-inactive w-100 p-4 gray-border">
+            <div class="d-flex main-holder holder-exception-2">
+                <div class="w-70">
+                    <div class="auna-card-main">
+                        <div class="d-flex flex-column align-items-center justify-content-center px-0">
+                            <div class="result col-lg-12  pr-0 pl-0 mt-0">
+                                <p class="inpt-mdl">Gastroenterología</p>
+                                <img class="image-eye-icon" src="img/pincel.svg">
 
+                                <p class="inpt-mdl_day">Vie. 20/03/20</p>
+                                <img class="image-eye-day" src="img/pincel.svg">
                             </div>
                         </div>
+                        <hr class="space">
+
+                        <p class="body--4">Solo se muestran los turnos disponibles</p>
+
+                        <p class="subTitle--4">Dr. Cisneros Gomez Carlos Augusto</p>
+                        <p class="body--3">Turno: Mie. 09:00 - 11:00 - Vie. 09:00 - 15:00</p>
+                        <div class="result col-lg-12  pr-0 pl-0 mt-0">
+                            <p class="hour">09.00</p>
+                            <p class="hour">09.30</p>
+                            <p class="hour">10.00</p>
+                            <p class="hour">10.30</p>
+                            <p class="hour">11.30</p>
+                            <p class="hour">12.00</p>
+                        </div>
+                        <hr class="">
+
+                        <p class="subTitle--4">Dr. García Montero Diego</p>
+                        <p class="body--3">Turno: Mie. 09:00 - 11:00 - Vie. 09:00 - 15:00</p>
+                        <div class="result col-lg-12  pr-0 pl-0 mt-0">
+                            <p class="hour">09.00</p>
+                            <p class="hour">09.30</p>
+                            <p class="hour">10.00</p>
+                            <p class="hour">10.30</p>
+                            <p class="hour">11.30</p>
+                            <p class="hour">12.00</p>
+                        </div>
+                        <hr class="">
+
+                        <p class="subTitle--4">Dra. Velásquez Zubiate Cristina María</p>
+                        <p class="body--3">Turno: Mie. 09:00 - 11:00 - Vie. 09:00 - 15:00</p>
+                        <button class="btn-hour btn-recover-password">Sin horario disponible</button>
+                        <hr class="">
+
+                        <p class="subTitle--4">Dra. Vera Martínez María Almendra</p>
+                        <p class="body--3">Turno: Mie. 09:00 - 11:00 - Vie. 09:00 - 15:00</p>
+                        <div class="result col-lg-12  pr-0 pl-0 mt-0">
+                            <p class="hour">09.00</p>
+                            <p class="hour">09.30</p>
+                            <p class="hour">10.00</p>
+                            <p class="hour">10.30</p>
+                            <p class="hour">11.30</p>
+                            <p class="hour">12.00</p>
+                        </div>
+                    </div>
+
+                    <button class="btn-back btn-recover-password">Atrás</button>
+                    <button class="btn-none btn-recover-password" >Continuar</button>
+
+                </div>
+
+                <div class="w-30 d-md-block">
+                    <div class="resume-card lbl-auna-dark">
+                        <h6 class="pd-bt"> Resumen de tu cita </h6>
+                        <p class="subTitle--5">Especialidad</p>
+                        <p class="subTitle--3 m-0">Gastroenterología</p>
+                        <img class="image-cruz" src="img/Cruz.svg">
+
+                        <p class="subTitle--5">Fecha</p>
+                        <p class="subTitle--3s m-0">20 de marzo de 2020</p>
+                        <img class="image-calendar" src="img/Calendario.svg">
 
                     </div>
                 </div>
