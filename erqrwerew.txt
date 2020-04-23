@@ -143,6 +143,7 @@
                         <div class="col-lg-12  pr-0 pl-0 mt-0">
                             <p class="inpt-mdl">Gastroenterología</p>
                             <img class="image-eye-icon" src="img/pincel.svg">
+                            <a href="#">News <span class="">5</span></a><br>
                         </div>
                         <div class="responsiive-separator-01"></div>
                         <div class="col-lg-12 pt-2 pr-0 pl-0">
@@ -161,3 +162,164 @@
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+.auna-card-main{
+    padding: 24px 40px;
+    border: 1px solid #E4E5ED;
+    min-height: 400px;
+    border-radius: 16px;
+}
+
+.card-CV-active {
+    background: #FFFFFF;
+    /* Auna-Sea */
+
+    border: 1px solid #00B0CA;
+    box-sizing: border-box;
+    border-radius: 16px;
+}
+
+.card-CV-inactive{
+    background: #FFFFFF;
+    /* Auna-Sea */
+
+    border: 1px solid #B8BCD5;
+    box-sizing: border-box;
+    border-radius: 16px;
+}
+
+.content-cv{
+    height: calc(100% - 65px);
+}
+
+.bolder{
+    font-weight: 700 !important;
+}
+
+.inpt-mdl {
+    padding: 10px 36px 10px 12px;
+    border-radius: 40px;
+    font-family: 'Axiforma Medium';
+    color: #00B0CA;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
+    background: #E6F6F9;a
+    border: 0px;
+    outline: none;
+    cursor: default;
+    width: 181px;
+}
+
+.image-eye-icon{
+    position: absolute;
+    right: 149px;
+    top: 13px;
+    cursor: pointer;
+    display: flex;
+}
+
+.greeting-header{
+    font-family: Axiforma;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    /* display: flex;
+    align-items: center; */
+    text-align: right;
+    letter-spacing: 0.015em;
+    /* Auna-Sea */
+    color: #00B0CA;
+}
+
+.greeting-header strong{
+    font-weight: 600;
+}
+
+.image-links span{
+    padding-right: 20px;
+}
+
+.image-links img{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.main-holder{
+    width: 50%;
+    min-width: 400px;
+}
+
+.rectangle-6{
+    background: #FFFFFF;
+    border-bottom:  #E4E5ED;
+    max-height: 64px;
+    height: 64px;
+}
+
+.responsiive-separator-01{
+    border-bottom: 1px solid #E4E5ED;
+    width: 100%;
+    margin: 8px 0 32px;
+}
+
+.select-option:hover{
+    background: #E6F6F9;
+}
+
+.sidebar-consulta{
+    border-right: 1px solid #E4E5ED;;
+}
+
+.sidebar-consulta .sidebar-options{
+
+}
+
+
+.warning-box{
+    /* Auna-Peach */
+    background: #FFF0E6;
+    border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+    .greeting-header{
+        display: none;
+    }
+
+    .sidebar-consulta{
+        display: none;
+    }
+
+    .main-holder{
+        width: 100%;
+        min-width: unset;
+    }
+
+    .auna-card-main{
+        padding: 0;
+        border: unset;
+    }
+
+    .responsiive-separator-01{
+        display: none;
+    }
+
+}
