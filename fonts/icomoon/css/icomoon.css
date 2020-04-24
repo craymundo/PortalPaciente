@@ -11,6 +11,9 @@
     /* Better Font Rendering =========== */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
 }
 
 .icon-arroba:before {
@@ -27,9 +30,6 @@
 
 .icon-Calendario:before {
     content: "\e903";
-    font-size: 24px;
-    width: 24px;
-    height: 24px;
 }
 
 .icon-Campana:before {
@@ -50,9 +50,6 @@
 
 .icon-CloseEyes:before {
     content: "\e908";
-    font-size: 24px;
-    width: 24px;
-    height: 24px;
 }
 
 
@@ -110,9 +107,6 @@
 }
 .icon-OpenEyes:before {
     content: "\e91a";
-    font-size: 24px;
-    width: 24px;
-    height: 24px;
 }
 .icon-Pastillas:before {
     content: "\e91b";
